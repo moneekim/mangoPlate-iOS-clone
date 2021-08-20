@@ -5,4 +5,7 @@
 //  Created by 김모경 on 2021/08/19.
 //
 
-import Foundation
+struct LoginInput : Encodable{
+    var email : String
+    var password : String
+}

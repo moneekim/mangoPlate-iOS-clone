@@ -3,18 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27600D0A1AFC205B893C188E /* Pods_MangoPlate_iOS_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A709C29EFBDA573F4AC7E8 /* Pods_MangoPlate_iOS_clone.framework */; };
+		5A4B1FB9D37B890AFABA1586 /* Pods_MangoPlate_iOS_cloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAB35D251E43733A05FB33F /* Pods_MangoPlate_iOS_cloneTests.framework */; };
+		973FC43CF9D152E0E6872ED9 /* Pods_MangoPlate_iOS_clone_MangoPlate_iOS_cloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD323D692F006E31ED606AC /* Pods_MangoPlate_iOS_clone_MangoPlate_iOS_cloneUITests.framework */; };
 		BB0D9C6B26CDAC3A0099B9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9C6A26CDAC3A0099B9CA /* AppDelegate.swift */; };
 		BB0D9C6D26CDAC3A0099B9CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9C6C26CDAC3A0099B9CA /* SceneDelegate.swift */; };
-		BB0D9C6F26CDAC3A0099B9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9C6E26CDAC3A0099B9CA /* ViewController.swift */; };
-		BB0D9C7226CDAC3A0099B9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9C7026CDAC3A0099B9CA /* Main.storyboard */; };
 		BB0D9C7426CDAC3B0099B9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9C7326CDAC3B0099B9CA /* Assets.xcassets */; };
-		BB0D9C7726CDAC3B0099B9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9C7526CDAC3B0099B9CA /* LaunchScreen.storyboard */; };
 		BB0D9C8226CDAC3B0099B9CA /* MangoPlate_iOS_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9C8126CDAC3B0099B9CA /* MangoPlate_iOS_cloneTests.swift */; };
 		BB0D9C8D26CDAC3B0099B9CA /* MangoPlate_iOS_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9C8C26CDAC3B0099B9CA /* MangoPlate_iOS_cloneUITests.swift */; };
+		BB0D9CAA26CDAF960099B9CA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CA926CDAF960099B9CA /* Constant.swift */; };
+		BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */; };
+		BB0D9CAF26CDB00E0099B9CA /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CAD26CDB00E0099B9CA /* SplashViewController.xib */; };
+		BB0D9CB226CDB0930099B9CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB026CDB0930099B9CA /* HomeViewController.swift */; };
+		BB0D9CB626CDB0A40099B9CA /* MangoPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */; };
+		BB0D9CB726CDB0A40099B9CA /* MangoPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */; };
+		BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */; };
+		BB0D9CBC26CDB0BC0099B9CA /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */; };
+		BB0D9CBF26CDB0C90099B9CA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CBD26CDB0C90099B9CA /* ProfileViewController.swift */; };
+		BB0D9CC026CDB0C90099B9CA /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CBE26CDB0C90099B9CA /* ProfileViewController.xib */; };
+		BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */; };
+		BB0D9CC826CDB13B0099B9CA /* LoginRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CC626CDB13B0099B9CA /* LoginRequestViewController.xib */; };
+		BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */; };
+		BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */; };
+		BB0D9CCF26CDB16B0099B9CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */; };
+		BB0D9CD026CDB16B0099B9CA /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CCE26CDB16B0099B9CA /* SignUpViewController.xib */; };
+		BB0D9CD226CDB5180099B9CA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */; };
+		BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD326CDB5310099B9CA /* LoginInput.swift */; };
+		BB0D9CD626CDB5460099B9CA /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD526CDB5460099B9CA /* LoginDataManager.swift */; };
+		BB0D9CD826CDB55B0099B9CA /* JwtToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD726CDB55B0099B9CA /* JwtToken.swift */; };
+		BB0D9CDA26CDB7F30099B9CA /* SignUpInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD926CDB7F30099B9CA /* SignUpInput.swift */; };
+		BB0D9CDC26CDB8000099B9CA /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CDB26CDB8000099B9CA /* SignUpResponse.swift */; };
+		BB0D9CDE26CDB8C00099B9CA /* SignUpDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CDD26CDB8C00099B9CA /* SignUpDataManager.swift */; };
+		BB0D9CE126CE18D60099B9CA /* AuthPhoneNumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CDF26CE18D60099B9CA /* AuthPhoneNumController.swift */; };
+		BB0D9CE226CE18D60099B9CA /* AuthPhoneNumController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */; };
+		BB0D9CE926CE4A100099B9CA /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */; };
+		BB0D9CEA26CE4A100099B9CA /* EnterNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */; };
+		BB0D9CEC26CED40A0099B9CA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CEB26CED40A0099B9CA /* Home.storyboard */; };
+		BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CED26CED8780099B9CA /* TabBar.storyboard */; };
+		BB0D9CF026CED88D0099B9CA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */; };
+		BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */; };
+		BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +67,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26B291DF1FF1170829807C47 /* Pods-MangoPlate-iOS-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-clone.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-clone/Pods-MangoPlate-iOS-clone.release.xcconfig"; sourceTree = "<group>"; };
+		6DEE2218E5FB0E306131CF24 /* Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7221933FB01C29B46F0B6E6E /* Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DAB35D251E43733A05FB33F /* Pods_MangoPlate_iOS_cloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoPlate_iOS_cloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD323D692F006E31ED606AC /* Pods_MangoPlate_iOS_clone_MangoPlate_iOS_cloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoPlate_iOS_clone_MangoPlate_iOS_cloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9787627A59FA7618C9AFDD40 /* Pods-MangoPlate-iOS-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-clone.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-clone/Pods-MangoPlate-iOS-clone.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A709C29EFBDA573F4AC7E8 /* Pods_MangoPlate_iOS_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoPlate_iOS_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0D9C6726CDAC3A0099B9CA /* MangoPlate-iOS-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MangoPlate-iOS-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0D9C6A26CDAC3A0099B9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB0D9C6C26CDAC3A0099B9CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB0D9C6E26CDAC3A0099B9CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB0D9C7126CDAC3A0099B9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB0D9C7326CDAC3B0099B9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB0D9C7626CDAC3B0099B9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0D9C7826CDAC3B0099B9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB0D9C7D26CDAC3B0099B9CA /* MangoPlate-iOS-cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MangoPlate-iOS-cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0D9C8126CDAC3B0099B9CA /* MangoPlate_iOS_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPlate_iOS_cloneTests.swift; sourceTree = "<group>"; };
@@ -49,6 +85,40 @@
 		BB0D9C8826CDAC3B0099B9CA /* MangoPlate-iOS-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MangoPlate-iOS-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0D9C8C26CDAC3B0099B9CA /* MangoPlate_iOS_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPlate_iOS_cloneUITests.swift; sourceTree = "<group>"; };
 		BB0D9C8E26CDAC3B0099B9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0D9CA926CDAF960099B9CA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		BB0D9CAD26CDB00E0099B9CA /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		BB0D9CB026CDB0930099B9CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPickViewController.swift; sourceTree = "<group>"; };
+		BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MangoPickViewController.xib; sourceTree = "<group>"; };
+		BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		BB0D9CBD26CDB0C90099B9CA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BB0D9CBE26CDB0C90099B9CA /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewController.swift; sourceTree = "<group>"; };
+		BB0D9CC626CDB13B0099B9CA /* LoginRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginRequestViewController.xib; sourceTree = "<group>"; };
+		BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BB0D9CCE26CDB16B0099B9CA /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		BB0D9CD326CDB5310099B9CA /* LoginInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInput.swift; sourceTree = "<group>"; };
+		BB0D9CD526CDB5460099B9CA /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
+		BB0D9CD726CDB55B0099B9CA /* JwtToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwtToken.swift; sourceTree = "<group>"; };
+		BB0D9CD926CDB7F30099B9CA /* SignUpInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInput.swift; sourceTree = "<group>"; };
+		BB0D9CDB26CDB8000099B9CA /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
+		BB0D9CDD26CDB8C00099B9CA /* SignUpDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDataManager.swift; sourceTree = "<group>"; };
+		BB0D9CDF26CE18D60099B9CA /* AuthPhoneNumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPhoneNumController.swift; sourceTree = "<group>"; };
+		BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthPhoneNumController.xib; sourceTree = "<group>"; };
+		BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterNameViewController.xib; sourceTree = "<group>"; };
+		BB0D9CEB26CED40A0099B9CA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		BB0D9CED26CED8780099B9CA /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27600D0A1AFC205B893C188E /* Pods_MangoPlate_iOS_clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4B1FB9D37B890AFABA1586 /* Pods_MangoPlate_iOS_cloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +142,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973FC43CF9D152E0E6872ED9 /* Pods_MangoPlate_iOS_clone_MangoPlate_iOS_cloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BD0F73B06BD6D47DC9994F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A709C29EFBDA573F4AC7E8 /* Pods_MangoPlate_iOS_clone.framework */,
+				8FD323D692F006E31ED606AC /* Pods_MangoPlate_iOS_clone_MangoPlate_iOS_cloneUITests.framework */,
+				7DAB35D251E43733A05FB33F /* Pods_MangoPlate_iOS_cloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB0D9C5E26CDAC3A0099B9CA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +166,8 @@
 				BB0D9C8026CDAC3B0099B9CA /* MangoPlate-iOS-cloneTests */,
 				BB0D9C8B26CDAC3B0099B9CA /* MangoPlate-iOS-cloneUITests */,
 				BB0D9C6826CDAC3A0099B9CA /* Products */,
+				E13C8EE5BD88167B58B21588 /* Pods */,
+				0BD0F73B06BD6D47DC9994F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +184,11 @@
 		BB0D9C6926CDAC3A0099B9CA /* MangoPlate-iOS-clone */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9CA826CDAF830099B9CA /* Configuration */,
+				BB0D9C9F26CDAEB50099B9CA /* Sources */,
 				BB0D9C6A26CDAC3A0099B9CA /* AppDelegate.swift */,
 				BB0D9C6C26CDAC3A0099B9CA /* SceneDelegate.swift */,
-				BB0D9C6E26CDAC3A0099B9CA /* ViewController.swift */,
-				BB0D9C7026CDAC3A0099B9CA /* Main.storyboard */,
 				BB0D9C7326CDAC3B0099B9CA /* Assets.xcassets */,
-				BB0D9C7526CDAC3B0099B9CA /* LaunchScreen.storyboard */,
 				BB0D9C7826CDAC3B0099B9CA /* Info.plist */,
 			);
 			path = "MangoPlate-iOS-clone";
@@ -128,6 +212,177 @@
 			path = "MangoPlate-iOS-cloneUITests";
 			sourceTree = "<group>";
 		};
+		BB0D9C9F26CDAEB50099B9CA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CA126CDAED20099B9CA /* Screen */,
+				BB0D9CA026CDAECA0099B9CA /* Splash */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BB0D9CA026CDAECA0099B9CA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */,
+				BB0D9CAD26CDB00E0099B9CA /* SplashViewController.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		BB0D9CA126CDAED20099B9CA /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CA726CDAEFA0099B9CA /* Home */,
+				BB0D9CA626CDAEF40099B9CA /* MangoPick */,
+				BB0D9CA526CDAEEF0099B9CA /* News */,
+				BB0D9CA426CDAEE90099B9CA /* Profile */,
+				BB0D9CA326CDAEE10099B9CA /* Login */,
+				BB0D9CA226CDAED80099B9CA /* SignUp */,
+				BB0D9CED26CED8780099B9CA /* TabBar.storyboard */,
+				BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		BB0D9CA226CDAED80099B9CA /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CC426CDB0EB0099B9CA /* Entity */,
+				BB0D9CC326CDB0E10099B9CA /* DataManager */,
+				BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */,
+				BB0D9CCE26CDB16B0099B9CA /* SignUpViewController.xib */,
+				BB0D9CDF26CE18D60099B9CA /* AuthPhoneNumController.swift */,
+				BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */,
+				BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */,
+				BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		BB0D9CA326CDAEE10099B9CA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CC226CDB0D90099B9CA /* Entity */,
+				BB0D9CC126CDB0D00099B9CA /* DataManager */,
+				BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */,
+				BB0D9CC626CDB13B0099B9CA /* LoginRequestViewController.xib */,
+				BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */,
+				BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BB0D9CA426CDAEE90099B9CA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CBD26CDB0C90099B9CA /* ProfileViewController.swift */,
+				BB0D9CBE26CDB0C90099B9CA /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BB0D9CA526CDAEEF0099B9CA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */,
+				BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		BB0D9CA626CDAEF40099B9CA /* MangoPick */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */,
+				BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */,
+			);
+			path = MangoPick;
+			sourceTree = "<group>";
+		};
+		BB0D9CA726CDAEFA0099B9CA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CF126CFF6AB0099B9CA /* Banner */,
+				BB0D9CB026CDB0930099B9CA /* HomeViewController.swift */,
+				BB0D9CEB26CED40A0099B9CA /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB0D9CA826CDAF830099B9CA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CAB26CDAF990099B9CA /* Secret */,
+				BB0D9CA926CDAF960099B9CA /* Constant.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		BB0D9CAB26CDAF990099B9CA /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CD726CDB55B0099B9CA /* JwtToken.swift */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
+		BB0D9CC126CDB0D00099B9CA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CD526CDB5460099B9CA /* LoginDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BB0D9CC226CDB0D90099B9CA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CD326CDB5310099B9CA /* LoginInput.swift */,
+				BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BB0D9CC326CDB0E10099B9CA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CDD26CDB8C00099B9CA /* SignUpDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BB0D9CC426CDB0EB0099B9CA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CD926CDB7F30099B9CA /* SignUpInput.swift */,
+				BB0D9CDB26CDB8000099B9CA /* SignUpResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BB0D9CF126CFF6AB0099B9CA /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */,
+				BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		E13C8EE5BD88167B58B21588 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9787627A59FA7618C9AFDD40 /* Pods-MangoPlate-iOS-clone.debug.xcconfig */,
+				26B291DF1FF1170829807C47 /* Pods-MangoPlate-iOS-clone.release.xcconfig */,
+				7221933FB01C29B46F0B6E6E /* Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.debug.xcconfig */,
+				6DEE2218E5FB0E306131CF24 /* Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.release.xcconfig */,
+				E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */,
+				F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +390,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0D9C9126CDAC3B0099B9CA /* Build configuration list for PBXNativeTarget "MangoPlate-iOS-clone" */;
 			buildPhases = (
+				CECF0570CD39E2C1A61E7BC9 /* [CP] Check Pods Manifest.lock */,
 				BB0D9C6326CDAC3A0099B9CA /* Sources */,
 				BB0D9C6426CDAC3A0099B9CA /* Frameworks */,
 				BB0D9C6526CDAC3A0099B9CA /* Resources */,
+				147B77EEA2A993FA27785AA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +409,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0D9C9426CDAC3B0099B9CA /* Build configuration list for PBXNativeTarget "MangoPlate-iOS-cloneTests" */;
 			buildPhases = (
+				1FD8A6961B78494A0E9AEC86 /* [CP] Check Pods Manifest.lock */,
 				BB0D9C7926CDAC3B0099B9CA /* Sources */,
 				BB0D9C7A26CDAC3B0099B9CA /* Frameworks */,
 				BB0D9C7B26CDAC3B0099B9CA /* Resources */,
@@ -170,9 +428,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0D9C9726CDAC3B0099B9CA /* Build configuration list for PBXNativeTarget "MangoPlate-iOS-cloneUITests" */;
 			buildPhases = (
+				2E390A718B6F8022D0176ABD /* [CP] Check Pods Manifest.lock */,
 				BB0D9C8426CDAC3B0099B9CA /* Sources */,
 				BB0D9C8526CDAC3B0099B9CA /* Frameworks */,
 				BB0D9C8626CDAC3B0099B9CA /* Resources */,
+				FDD4146AED4D4EEEFB1D330D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +491,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0D9C7726CDAC3B0099B9CA /* LaunchScreen.storyboard in Resources */,
+				BB0D9CEA26CE4A100099B9CA /* EnterNameViewController.xib in Resources */,
+				BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */,
+				BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */,
+				BB0D9CC026CDB0C90099B9CA /* ProfileViewController.xib in Resources */,
+				BB0D9CEC26CED40A0099B9CA /* Home.storyboard in Resources */,
+				BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */,
+				BB0D9CB726CDB0A40099B9CA /* MangoPickViewController.xib in Resources */,
 				BB0D9C7426CDAC3B0099B9CA /* Assets.xcassets in Resources */,
-				BB0D9C7226CDAC3A0099B9CA /* Main.storyboard in Resources */,
+				BB0D9CD026CDB16B0099B9CA /* SignUpViewController.xib in Resources */,
+				BB0D9CE226CE18D60099B9CA /* AuthPhoneNumController.xib in Resources */,
+				BB0D9CBC26CDB0BC0099B9CA /* NewsViewController.xib in Resources */,
+				BB0D9CC826CDB13B0099B9CA /* LoginRequestViewController.xib in Resources */,
+				BB0D9CAF26CDB00E0099B9CA /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +523,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		147B77EEA2A993FA27785AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangoPlate-iOS-clone/Pods-MangoPlate-iOS-clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangoPlate-iOS-clone/Pods-MangoPlate-iOS-clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangoPlate-iOS-clone/Pods-MangoPlate-iOS-clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD8A6961B78494A0E9AEC86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangoPlate-iOS-cloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E390A718B6F8022D0176ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECF0570CD39E2C1A61E7BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangoPlate-iOS-clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD4146AED4D4EEEFB1D330D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests/Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB0D9C6326CDAC3A0099B9CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0D9C6F26CDAC3A0099B9CA /* ViewController.swift in Sources */,
+				BB0D9CCF26CDB16B0099B9CA /* SignUpViewController.swift in Sources */,
+				BB0D9CE126CE18D60099B9CA /* AuthPhoneNumController.swift in Sources */,
+				BB0D9CB626CDB0A40099B9CA /* MangoPickViewController.swift in Sources */,
+				BB0D9CDC26CDB8000099B9CA /* SignUpResponse.swift in Sources */,
+				BB0D9CF026CED88D0099B9CA /* TabBarViewController.swift in Sources */,
+				BB0D9CDA26CDB7F30099B9CA /* SignUpInput.swift in Sources */,
+				BB0D9CD826CDB55B0099B9CA /* JwtToken.swift in Sources */,
+				BB0D9CD226CDB5180099B9CA /* LoginResponse.swift in Sources */,
 				BB0D9C6B26CDAC3A0099B9CA /* AppDelegate.swift in Sources */,
 				BB0D9C6D26CDAC3A0099B9CA /* SceneDelegate.swift in Sources */,
+				BB0D9CAA26CDAF960099B9CA /* Constant.swift in Sources */,
+				BB0D9CDE26CDB8C00099B9CA /* SignUpDataManager.swift in Sources */,
+				BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */,
+				BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */,
+				BB0D9CBF26CDB0C90099B9CA /* ProfileViewController.swift in Sources */,
+				BB0D9CB226CDB0930099B9CA /* HomeViewController.swift in Sources */,
+				BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */,
+				BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */,
+				BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */,
+				BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */,
+				BB0D9CE926CE4A100099B9CA /* EnterNameViewController.swift in Sources */,
+				BB0D9CD626CDB5460099B9CA /* LoginDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +686,6 @@
 			targetProxy = BB0D9C8926CDAC3B0099B9CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BB0D9C7026CDAC3A0099B9CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB0D9C7126CDAC3A0099B9CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BB0D9C7526CDAC3B0099B9CA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB0D9C7626CDAC3B0099B9CA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BB0D9C8F26CDAC3B0099B9CA /* Debug */ = {
@@ -433,11 +806,13 @@
 		};
 		BB0D9C9226CDAC3B0099B9CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9787627A59FA7618C9AFDD40 /* Pods-MangoPlate-iOS-clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MangoPlate-iOS-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +826,13 @@
 		};
 		BB0D9C9326CDAC3B0099B9CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B291DF1FF1170829807C47 /* Pods-MangoPlate-iOS-clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MangoPlate-iOS-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +846,7 @@
 		};
 		BB0D9C9526CDAC3B0099B9CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +868,7 @@
 		};
 		BB0D9C9626CDAC3B0099B9CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +890,7 @@
 		};
 		BB0D9C9826CDAC3B0099B9CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7221933FB01C29B46F0B6E6E /* Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +910,7 @@
 		};
 		BB0D9C9926CDAC3B0099B9CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEE2218E5FB0E306131CF24 /* Pods-MangoPlate-iOS-clone-MangoPlate-iOS-cloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

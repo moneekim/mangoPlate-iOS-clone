@@ -7,12 +7,31 @@
 
 import UIKit
 
+protocol SendPhoneNumDelegate {
+    func sendData(data: String)
+}
+
 class AuthPhoneNumController: UIViewController {
 
+    var tempEmail = ""
+    var tempPwd = ""
+    
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var phoneNumInput: UITextField!
     
     @IBAction func nextButton(_ sender: Any) {
+        
+        guard let phoneNum = phoneNumInput.text, !phoneNum.isEmpty else { return }
+        
+        
+        let nextVC = EnterNameViewController(nibName: "EnterNameViewController", bundle: nil)
+        
+        nextVC.sentPhoneNum = phoneNum
+        nextVC.sentEmail = tempEmail
+        nextVC.sentPwd = tempPwd
+        
+        nextVC.modalPresentationStyle = .overFullScreen
+        self.present(nextVC, animated: true, completion: nil)
     
     }
     
@@ -37,11 +56,4 @@ class AuthPhoneNumController: UIViewController {
     
     }
 
-}
-
-extension AuthPhoneNumController : SendDataDelegate{
-    func sendData(data: String, data2: String) {
-        
-        
-    }
 }
