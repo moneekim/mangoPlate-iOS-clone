@@ -23,7 +23,6 @@
 		BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */; };
 		BB0D9CBC26CDB0BC0099B9CA /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */; };
 		BB0D9CBF26CDB0C90099B9CA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CBD26CDB0C90099B9CA /* ProfileViewController.swift */; };
-		BB0D9CC026CDB0C90099B9CA /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CBE26CDB0C90099B9CA /* ProfileViewController.xib */; };
 		BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */; };
 		BB0D9CC826CDB13B0099B9CA /* LoginRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CC626CDB13B0099B9CA /* LoginRequestViewController.xib */; };
 		BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */; };
@@ -49,6 +48,9 @@
 		BB0D9CF926D024E00099B9CA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CF726D024E00099B9CA /* HomeViewController.xib */; };
 		BB0D9CFC26D04DD80099B9CA /* StoresCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */; };
 		BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */; };
+		BB0D9D0226D102A20099B9CA /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D0126D102A20099B9CA /* HomeResponse.swift */; };
+		BB0D9D0626D102B40099B9CA /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D0526D102B40099B9CA /* HomeDataManager.swift */; };
+		BB0D9D0826D194CF0099B9CA /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D0726D194CF0099B9CA /* ProfileViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,7 +97,6 @@
 		BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 		BB0D9CBD26CDB0C90099B9CA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		BB0D9CBE26CDB0C90099B9CA /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewController.swift; sourceTree = "<group>"; };
 		BB0D9CC626CDB13B0099B9CA /* LoginRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginRequestViewController.xib; sourceTree = "<group>"; };
 		BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +122,10 @@
 		BB0D9CF726D024E00099B9CA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoresCollectionViewCell.xib; sourceTree = "<group>"; };
+		BB0D9CFE26D0F5590099B9CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB0D9D0126D102A20099B9CA /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		BB0D9D0526D102B40099B9CA /* HomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
+		BB0D9D0726D194CF0099B9CA /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
 		E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +197,7 @@
 				BB0D9C9F26CDAEB50099B9CA /* Sources */,
 				BB0D9C6A26CDAC3A0099B9CA /* AppDelegate.swift */,
 				BB0D9C6C26CDAC3A0099B9CA /* SceneDelegate.swift */,
+				BB0D9CFE26D0F5590099B9CA /* README.md */,
 				BB0D9C7326CDAC3B0099B9CA /* Assets.xcassets */,
 				BB0D9C7826CDAC3B0099B9CA /* Info.plist */,
 			);
@@ -281,7 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				BB0D9CBD26CDB0C90099B9CA /* ProfileViewController.swift */,
-				BB0D9CBE26CDB0C90099B9CA /* ProfileViewController.xib */,
+				BB0D9D0726D194CF0099B9CA /* ProfileViewController.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -307,6 +313,8 @@
 		BB0D9CA726CDAEFA0099B9CA /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9D0026D102800099B9CA /* Entity */,
+				BB0D9CFF26D102770099B9CA /* DataManager */,
 				BB0D9CF126CFF6AB0099B9CA /* Collection */,
 				BB0D9CF626D024E00099B9CA /* HomeViewController.swift */,
 				BB0D9CF726D024E00099B9CA /* HomeViewController.xib */,
@@ -374,6 +382,22 @@
 				BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */,
 			);
 			path = Collection;
+			sourceTree = "<group>";
+		};
+		BB0D9CFF26D102770099B9CA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D0526D102B40099B9CA /* HomeDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BB0D9D0026D102800099B9CA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D0126D102A20099B9CA /* HomeResponse.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		E13C8EE5BD88167B58B21588 /* Pods */ = {
@@ -500,7 +524,6 @@
 				BB0D9CEA26CE4A100099B9CA /* EnterNameViewController.xib in Resources */,
 				BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */,
 				BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */,
-				BB0D9CC026CDB0C90099B9CA /* ProfileViewController.xib in Resources */,
 				BB0D9CF926D024E00099B9CA /* HomeViewController.xib in Resources */,
 				BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */,
 				BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */,
@@ -511,6 +534,7 @@
 				BB0D9CBC26CDB0BC0099B9CA /* NewsViewController.xib in Resources */,
 				BB0D9CC826CDB13B0099B9CA /* LoginRequestViewController.xib in Resources */,
 				BB0D9CAF26CDB00E0099B9CA /* SplashViewController.xib in Resources */,
+				BB0D9D0826D194CF0099B9CA /* ProfileViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,9 +672,11 @@
 				BB0D9CF826D024E00099B9CA /* HomeViewController.swift in Sources */,
 				BB0D9CD226CDB5180099B9CA /* LoginResponse.swift in Sources */,
 				BB0D9C6B26CDAC3A0099B9CA /* AppDelegate.swift in Sources */,
+				BB0D9D0626D102B40099B9CA /* HomeDataManager.swift in Sources */,
 				BB0D9C6D26CDAC3A0099B9CA /* SceneDelegate.swift in Sources */,
 				BB0D9CAA26CDAF960099B9CA /* Constant.swift in Sources */,
 				BB0D9CDE26CDB8C00099B9CA /* SignUpDataManager.swift in Sources */,
+				BB0D9D0226D102A20099B9CA /* HomeResponse.swift in Sources */,
 				BB0D9CFC26D04DD80099B9CA /* StoresCollectionViewCell.swift in Sources */,
 				BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */,
 				BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */,
