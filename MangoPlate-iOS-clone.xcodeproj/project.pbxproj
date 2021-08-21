@@ -18,7 +18,6 @@
 		BB0D9CAA26CDAF960099B9CA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CA926CDAF960099B9CA /* Constant.swift */; };
 		BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */; };
 		BB0D9CAF26CDB00E0099B9CA /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CAD26CDB00E0099B9CA /* SplashViewController.xib */; };
-		BB0D9CB226CDB0930099B9CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB026CDB0930099B9CA /* HomeViewController.swift */; };
 		BB0D9CB626CDB0A40099B9CA /* MangoPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */; };
 		BB0D9CB726CDB0A40099B9CA /* MangoPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */; };
 		BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */; };
@@ -42,11 +41,14 @@
 		BB0D9CE226CE18D60099B9CA /* AuthPhoneNumController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */; };
 		BB0D9CE926CE4A100099B9CA /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */; };
 		BB0D9CEA26CE4A100099B9CA /* EnterNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */; };
-		BB0D9CEC26CED40A0099B9CA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CEB26CED40A0099B9CA /* Home.storyboard */; };
 		BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CED26CED8780099B9CA /* TabBar.storyboard */; };
 		BB0D9CF026CED88D0099B9CA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */; };
 		BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */; };
 		BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */; };
+		BB0D9CF826D024E00099B9CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CF626D024E00099B9CA /* HomeViewController.swift */; };
+		BB0D9CF926D024E00099B9CA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CF726D024E00099B9CA /* HomeViewController.xib */; };
+		BB0D9CFC26D04DD80099B9CA /* StoresCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */; };
+		BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +90,6 @@
 		BB0D9CA926CDAF960099B9CA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		BB0D9CAD26CDB00E0099B9CA /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
-		BB0D9CB026CDB0930099B9CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPickViewController.swift; sourceTree = "<group>"; };
 		BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MangoPickViewController.xib; sourceTree = "<group>"; };
 		BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
@@ -112,11 +113,14 @@
 		BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthPhoneNumController.xib; sourceTree = "<group>"; };
 		BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 		BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterNameViewController.xib; sourceTree = "<group>"; };
-		BB0D9CEB26CED40A0099B9CA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		BB0D9CED26CED8780099B9CA /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 		BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		BB0D9CF626D024E00099B9CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB0D9CF726D024E00099B9CA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoresCollectionViewCell.xib; sourceTree = "<group>"; };
 		E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -303,9 +307,9 @@
 		BB0D9CA726CDAEFA0099B9CA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				BB0D9CF126CFF6AB0099B9CA /* Banner */,
-				BB0D9CB026CDB0930099B9CA /* HomeViewController.swift */,
-				BB0D9CEB26CED40A0099B9CA /* Home.storyboard */,
+				BB0D9CF126CFF6AB0099B9CA /* Collection */,
+				BB0D9CF626D024E00099B9CA /* HomeViewController.swift */,
+				BB0D9CF726D024E00099B9CA /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -361,13 +365,15 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		BB0D9CF126CFF6AB0099B9CA /* Banner */ = {
+		BB0D9CF126CFF6AB0099B9CA /* Collection */ = {
 			isa = PBXGroup;
 			children = (
 				BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */,
 				BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */,
+				BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */,
+				BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */,
 			);
-			path = Banner;
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		E13C8EE5BD88167B58B21588 /* Pods */ = {
@@ -495,8 +501,9 @@
 				BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */,
 				BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */,
 				BB0D9CC026CDB0C90099B9CA /* ProfileViewController.xib in Resources */,
-				BB0D9CEC26CED40A0099B9CA /* Home.storyboard in Resources */,
+				BB0D9CF926D024E00099B9CA /* HomeViewController.xib in Resources */,
 				BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */,
+				BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */,
 				BB0D9CB726CDB0A40099B9CA /* MangoPickViewController.xib in Resources */,
 				BB0D9C7426CDAC3B0099B9CA /* Assets.xcassets in Resources */,
 				BB0D9CD026CDB16B0099B9CA /* SignUpViewController.xib in Resources */,
@@ -638,15 +645,16 @@
 				BB0D9CF026CED88D0099B9CA /* TabBarViewController.swift in Sources */,
 				BB0D9CDA26CDB7F30099B9CA /* SignUpInput.swift in Sources */,
 				BB0D9CD826CDB55B0099B9CA /* JwtToken.swift in Sources */,
+				BB0D9CF826D024E00099B9CA /* HomeViewController.swift in Sources */,
 				BB0D9CD226CDB5180099B9CA /* LoginResponse.swift in Sources */,
 				BB0D9C6B26CDAC3A0099B9CA /* AppDelegate.swift in Sources */,
 				BB0D9C6D26CDAC3A0099B9CA /* SceneDelegate.swift in Sources */,
 				BB0D9CAA26CDAF960099B9CA /* Constant.swift in Sources */,
 				BB0D9CDE26CDB8C00099B9CA /* SignUpDataManager.swift in Sources */,
+				BB0D9CFC26D04DD80099B9CA /* StoresCollectionViewCell.swift in Sources */,
 				BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */,
 				BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */,
 				BB0D9CBF26CDB0C90099B9CA /* ProfileViewController.swift in Sources */,
-				BB0D9CB226CDB0930099B9CA /* HomeViewController.swift in Sources */,
 				BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */,
 				BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */,
 				BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */,
