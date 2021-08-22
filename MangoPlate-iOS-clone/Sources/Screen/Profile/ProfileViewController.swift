@@ -2,19 +2,21 @@
 //  ProfileViewController.swift
 //  MangoPlate-iOS-clone
 //
-//  Created by 김모경 on 2021/08/19.
+//  Created by 김모경 on 2021/08/22.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UINavigationController {
 
+    //let storyboardID = "profile"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
 
     /*
     // MARK: - Navigation

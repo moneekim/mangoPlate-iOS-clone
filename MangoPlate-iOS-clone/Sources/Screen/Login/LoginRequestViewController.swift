@@ -11,36 +11,55 @@ class LoginRequestViewController: UIViewController {
 
     @IBAction func skipBtn(_ sender: Any) {
         
-        let vc = HomeViewController(nibName: "HomeViewController", bundle: nil)
-        vc.modalPresentationStyle = .overFullScreen
-        self.present(vc, animated: true, completion: nil)
-        //storyboard를 통해 두번쨰 화면의 storyboard ID를 참조하여 뷰 컨트롤러를 가져옵니다.
-        //let svc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
+       
+        //let secondStoryboard = UIStoryboard.init(name: "Profile", bundle: nil)
+        //guard let second = secondStoryboard.instantiateViewController(identifier: "ProfileViewController") as? ProfileViewController else {return}
+        let secondStoryboard = UIStoryboard.init(name: "Home", bundle: nil)
+        guard let second = secondStoryboard.instantiateViewController(identifier: "HomeViewController") as? HomeViewController else {return}
+        second.modalPresentationStyle = .overFullScreen
+        present(second, animated: true, completion: nil)
+         
+        
         /*
-        guard let svc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
-        else {
-                return
-        }
+         guard let profileVC = UIStoryboard(name: "ProfileStoryboard", bundle: nil).instantiateViewController(identifier: "UnLoginProfileView") as? UnLoginViewController else {
+             return
+         }
+         for view in containerView.subviews{
+             view.removeFromSuperview()
+         }
+         profileVC.willMove(toParent: self)
+         containerView.addSubview(profileVC.view)
+         self.addChild(profileVC)
+         profileVC.didMove(toParent: self)
+         */
         
-        //화면 전환 애니메이션을 설정합니다. coverVertical 외에도 다양한 옵션이 있습니다.
-        svc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
         
-        //인자값으로 다음 뷰 컨트롤러를 넣고 present 메소드를 호출합니다.
-        self.present(svc, animated: true)
+        /*
+        //xib 가져오기
+        let storyboard = LoginRequestViewController(nibName: "LoginRequestViewController", bundle: nil)
+        
+        //viewcontroller instantiation
+        let storyBoard2 : UIStoryboard = UIStoryboard(name: "ProfileViewController", bundle:nil)
+        let viewController = storyboard2.instantiateViewController(withIdentifier: "profile") as! ProfileViewController
+        
+        // viewcontroller.view = loadedXib
+        self.present(viewController, animated: true, completion: nil)
         */
-//        let storyboard = UIStoryboard(name: "HomeViewController", bundle: nil)
-//        let managerViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController")
-//        self.pushViewController(managerViewController, animated: true)
+        
 
     }
     
     
     @IBAction func emailLoginBtn(_ sender: Any) {
         
+        /*
         let nextVC = LoginViewController(nibName: "LoginViewController", bundle: nil)
         //let nextVC = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
         nextVC.modalPresentationStyle = .overFullScreen
         self.present(nextVC, animated: true, completion: nil)
+        */
+        
+        
     }
 
     

@@ -13,12 +13,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        
+        /*  //xib 방식이리 때
         guard let scene = scene as? UIWindowScene else { return }
         
         //첫 화면 설정
         self.window = UIWindow(windowScene: scene)
         window?.rootViewController = SplashViewController()
         window?.makeKeyAndVisible()
+        */
         
         /*
          guard let windowScene = (scene as? UIWindowScene) else { return }

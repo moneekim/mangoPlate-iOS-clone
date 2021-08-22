@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rfG-OM-kFs">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="wIW-KR-gMh">
+            <objects>
+                <viewController id="rfG-OM-kFs" customClass="SplashViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O7V-9w-dl3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen_logo" translatesAutoresizingMaskIntoConstraints="NO" id="MBK-GP-e1u">
+                                <rect key="frame" x="92" y="359.33333333333331" width="206" height="135.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MBK-GP-e1u" secondAttribute="height" multiplier="230:151" id="5jc-Yb-CfO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vms-6V-LWH"/>
+                        <color key="backgroundColor" red="0.99168473479999997" green="0.43785971400000001" blue="0.009909977205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MBK-GP-e1u" firstAttribute="centerX" secondItem="Vms-6V-LWH" secondAttribute="centerX" id="HJV-Tj-RNW"/>
+                            <constraint firstItem="Vms-6V-LWH" firstAttribute="trailing" secondItem="MBK-GP-e1u" secondAttribute="trailing" constant="92" id="iFe-ZB-FmX"/>
+                            <constraint firstItem="MBK-GP-e1u" firstAttribute="centerY" secondItem="Vms-6V-LWH" secondAttribute="centerY" id="uVP-S5-938"/>
+                            <constraint firstItem="MBK-GP-e1u" firstAttribute="leading" secondItem="Vms-6V-LWH" secondAttribute="leading" constant="92" id="wTo-bd-i9L"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vde-Tq-2mu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-352" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchScreen_logo" width="144" height="78.666664123535156"/>
+    </resources>
+</document>

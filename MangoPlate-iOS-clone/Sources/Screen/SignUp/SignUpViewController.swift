@@ -31,12 +31,18 @@ class SignUpViewController: UIViewController {
 //        if pwdInput == confirmPwd{
 //            guard let password = pwdInput.text, !password.isEmpty else { return }
         
-  
+        
+        /*
+        //# api 연결할때 데이터 보내기 <= 스토리보드 방식으로 바꿔야함
         let nextVC = AuthPhoneNumController(nibName: "AuthPhoneNumController", bundle: nil)
         nextVC.tempEmail = email
         nextVC.tempPwd = password
         nextVC.modalPresentationStyle = .overFullScreen
         self.present(nextVC, animated: true, completion: nil)
+        */
+    
+    
+    
     }
     
     

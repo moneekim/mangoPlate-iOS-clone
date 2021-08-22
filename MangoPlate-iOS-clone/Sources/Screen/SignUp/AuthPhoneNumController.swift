@@ -23,7 +23,7 @@ class AuthPhoneNumController: UIViewController {
         
         guard let phoneNum = phoneNumInput.text, !phoneNum.isEmpty else { return }
         
-        
+        /*
         let nextVC = EnterNameViewController(nibName: "EnterNameViewController", bundle: nil)
         
         nextVC.sentPhoneNum = phoneNum
@@ -31,19 +31,19 @@ class AuthPhoneNumController: UIViewController {
         nextVC.sentPwd = tempPwd
         
         nextVC.modalPresentationStyle = .overFullScreen
-        self.present(nextVC, animated: true, completion: nil)
+        self.present(nextVC, animated: true, completion: nil)*/
     
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        /*
+        
          //네비게이션 바 설정
          self.navigationController?.navigationBar.tintColor = .darkGray
          self.navigationController?.navigationBar.topItem?.title = "휴대폰 번호 인증"
-         */
-        
+         
+    
         label.text = "본인 인증으로 망고플레이트에서 \n제안하는 맛집을 다양하게 즐겨보세요!"
         //텍스트필드 언더라인 설정
         phoneNumInput.borderStyle = .none

@@ -10,6 +10,10 @@ import UIKit
 class EnterNameViewController: UIViewController {
 
     
+    @IBOutlet weak var backNaviBtn: UINavigationItem!
+    
+    
+    
     @IBOutlet weak var nameInput: UITextField!
     @IBOutlet weak var frameLine: UITextField!
     

@@ -15,12 +15,13 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     
     //var userModel = UserModel() // 인스턴스 생성
-    
+    /*
     @IBAction func signInButton(_ sender: Any) {
         let nextVC = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
                 nextVC.modalPresentationStyle = .overFullScreen
                 self.present(nextVC, animated: true, completion: nil)
-    }
+    }*/
+    
 
     @IBAction func didTapLoginButton(_ sender: Any) {
         // 옵셔널 바인딩 & 예외 처리 : Textfield가 빈문자열이 아니고, nil이 아닐 때
@@ -32,63 +33,7 @@ class LoginViewController: UIViewController {
         let input = LoginInput(email: email, password: password)
         LoginDataManager().userslogIn(input, viewController: self)
         //api 연결 끝
-                
-
         
-        /*
-            if userModel.isValidEmail(id: email){
-                if let removable = self.view.viewWithTag(100) {
-                    removable.removeFromSuperview()
-                }
-            }
-            else {
-                shakeTextField(textField: emailInput)
-                let emailLabel = UILabel(frame: CGRect(x: 68, y: 350, width: 279, height: 45))
-                emailLabel.text = "이메일 형식을 확인해 주세요"
-                emailLabel.textColor = UIColor.red
-                emailLabel.tag = 100
-                    
-                self.view.addSubview(emailLabel)
-            } // 이메일 형식 오류
-                
-            if userModel.isValidPassword(pwd: password){
-                if let removable = self.view.viewWithTag(101) {
-                    removable.removeFromSuperview()
-                }
-            }
-            else{
-                shakeTextField(textField: pwdInput)
-                let passwordLabel = UILabel(frame: CGRect(x: 68, y: 435, width: 279, height: 45))
-                passwordLabel.text = "비밀번호 형식을 확인해 주세요"
-                passwordLabel.textColor = UIColor.red
-                passwordLabel.tag = 101
-                    
-                self.view.addSubview(passwordLabel)
-            } // 비밀번호 형식 오류
-                
-            if userModel.isValidEmail(id: email) && userModel.isValidPassword(pwd: password) {
-                let loginSuccess: Bool = loginCheck(id: email, pwd: password)
-                if loginSuccess {
-                    print("로그인 성공")
-                    if let removable = self.view.viewWithTag(102) {
-                        removable.removeFromSuperview()
-                    }
-                    self.performSegue(withIdentifier: "showMain", sender: self)
-                }
-                else {
-                    print("로그인 실패")
-                    shakeTextField(textField: emailInput)
-                    shakeTextField(textField: pwdInput)
-                    let loginFailLabel = UILabel(frame: CGRect(x: 68, y: 510, width: 279, height: 45))
-                    loginFailLabel.text = "아이디나 비밀번호가 다릅니다."
-                    loginFailLabel.textColor = UIColor.red
-                    loginFailLabel.tag = 102
-                        
-                    self.view.addSubview(loginFailLabel)
-                }
-            }
-        
-        */
     }
     
     
@@ -113,12 +58,13 @@ class LoginViewController: UIViewController {
         //버튼 둥글게 만들기
         loginButton.layer.cornerRadius = 22
         
+        //탭바 이미지 넣기
         let back = UIImage(named: "뒤로가기")
         let leftButtonItem = UIBarButtonItem(image: back, style: .plain, target: self, action: nil)
         //navigationItem.leftBarButtonItem = leftButtonItem
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: UIImageView(image: back))
         
-        
+        //탭바 타이틀
         let leftInsect = 30
         let leftLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width - CGFloat(leftInsect), height: view.frame.height))
         leftLabel.text = "이메일로 로그인"
