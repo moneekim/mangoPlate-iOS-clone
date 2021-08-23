@@ -9,15 +9,15 @@ struct HomeResponse : Decodable{
     var isSuccess : Bool
     var code : Int
     var message : String
-    var result : HomeResult?
+    var result : [HomeResult]?
 }
 
 struct HomeResult : Decodable{
-    var restaurantIdx : Int?
-    var name : String?
+    var restaurantIdx : Int
+    var name : String
     var profImg : String?
-    var rating : Float?
-    var location : String?
-    var views : Int?
-    var reviews : Int?
+    var rating : Float
+    var location : String
+    var views : Int
+    var reviews : Int
 }

@@ -22,12 +22,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8fi-0w-al4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-561" y="53"/>
+            <point key="canvasLocation" x="-511" y="40"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Profile Table View Controller-->
         <scene sceneID="nft-0T-mXc">
             <objects>
-                <tableViewController modalPresentationStyle="fullScreen" id="Mne-gQ-s0W" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="fullScreen" id="Mne-gQ-s0W" customClass="ProfileTableViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2EZ-kM-sN9">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,7 +137,7 @@
                             </constraints>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="zro-qy-Nz1">
-                            <rect key="frame" x="0.0" y="1060.515157179399" width="390" height="128"/>
+                            <rect key="frame" x="0.0" y="1060.6666731400924" width="390" height="128"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemGray5Color"/>
                         </view>
@@ -438,12 +438,21 @@
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMv-c0-9hd">
+                                                    <rect key="frame" x="327" y="20.666666666666668" width="18" height="21.000000000000004"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="MX3-Nq-eYi" firstAttribute="centerY" secondItem="qfN-g8-Tqr" secondAttribute="centerY" id="0bW-sl-7Nv"/>
                                                 <constraint firstItem="QI9-4T-mA0" firstAttribute="centerY" secondItem="qfN-g8-Tqr" secondAttribute="centerY" id="1fo-pX-zbY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="wMv-c0-9hd" secondAttribute="bottom" constant="9.5" id="6gu-PA-O0e"/>
                                                 <constraint firstItem="QI9-4T-mA0" firstAttribute="centerX" secondItem="qfN-g8-Tqr" secondAttribute="centerX" id="Mdv-hF-79K"/>
                                                 <constraint firstItem="MX3-Nq-eYi" firstAttribute="leading" secondItem="qfN-g8-Tqr" secondAttribute="leading" constant="20" symbolic="YES" id="O2d-zZ-F9g"/>
+                                                <constraint firstItem="wMv-c0-9hd" firstAttribute="top" secondItem="qfN-g8-Tqr" secondAttribute="topMargin" constant="9.5" id="Uj4-hz-RQs"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="wMv-c0-9hd" secondAttribute="trailing" constant="7.3300000000000001" id="l5j-vB-e9Z"/>
                                                 <constraint firstItem="QI9-4T-mA0" firstAttribute="leading" secondItem="MX3-Nq-eYi" secondAttribute="trailing" constant="20" id="p3f-4a-ybg"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -564,6 +573,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="DgM-8G-5c1"/>
+                    <connections>
+                        <outlet property="followNum" destination="anx-kc-vXA" id="bc2-uy-hnt"/>
+                        <outlet property="followingNum" destination="T1x-7g-q7y" id="lP3-a2-pdy"/>
+                        <outlet property="image" destination="YhE-ng-UQO" id="X8Z-xf-pif"/>
+                        <outlet property="name" destination="Ned-Qx-Ibw" id="329-jO-han"/>
+                        <outlet property="photoNum" destination="tM0-4n-3Uo" id="nac-by-TCr"/>
+                        <outlet property="reviewNum" destination="rVJ-KC-b2u" id="aCD-yr-AgY"/>
+                        <outlet property="wentNum" destination="1F0-IB-YC6" id="KGb-0q-7WK"/>
+                        <outlet property="wishNum" destination="wMv-c0-9hd" id="REO-ZZ-a0x"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fD8-64-hcr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

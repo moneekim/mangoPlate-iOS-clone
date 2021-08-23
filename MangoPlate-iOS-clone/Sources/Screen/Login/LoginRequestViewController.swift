@@ -14,8 +14,12 @@ class LoginRequestViewController: UIViewController {
        
         //let secondStoryboard = UIStoryboard.init(name: "Profile", bundle: nil)
         //guard let second = secondStoryboard.instantiateViewController(identifier: "ProfileViewController") as? ProfileViewController else {return}
+        /*
         let secondStoryboard = UIStoryboard.init(name: "Home", bundle: nil)
         guard let second = secondStoryboard.instantiateViewController(identifier: "HomeViewController") as? HomeViewController else {return}
+ */
+        let secondStoryboard = UIStoryboard.init(name: "Profile", bundle: nil)
+        guard let second = secondStoryboard.instantiateViewController(identifier: "ProfileViewController") as? ProfileViewController else {return}
         second.modalPresentationStyle = .overFullScreen
         present(second, animated: true, completion: nil)
          

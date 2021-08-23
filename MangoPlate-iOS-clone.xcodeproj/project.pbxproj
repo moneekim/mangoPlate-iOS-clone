@@ -18,7 +18,6 @@
 		BB0D9CAA26CDAF960099B9CA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CA926CDAF960099B9CA /* Constant.swift */; };
 		BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */; };
 		BB0D9CB626CDB0A40099B9CA /* MangoPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */; };
-		BB0D9CB726CDB0A40099B9CA /* MangoPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */; };
 		BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */; };
 		BB0D9CBC26CDB0BC0099B9CA /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */; };
 		BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */; };
@@ -56,6 +55,8 @@
 		BB0D9D5226D25B460099B9CA /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D5126D25B460099B9CA /* Splash.storyboard */; };
 		BB0D9D5426D266770099B9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D5326D266770099B9CA /* LaunchScreen.storyboard */; };
 		BB0D9D5726D2E90F0099B9CA /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D5626D2E90F0099B9CA /* StoreCell.swift */; };
+		BB0D9D5B26D2FFA60099B9CA /* ProfileDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D5A26D2FFA60099B9CA /* ProfileDataManager.swift */; };
+		BB0D9D5D26D3155D0099B9CA /* ProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D5C26D3155D0099B9CA /* ProfileResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +98,6 @@
 		BB0D9CA926CDAF960099B9CA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPickViewController.swift; sourceTree = "<group>"; };
-		BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MangoPickViewController.xib; sourceTree = "<group>"; };
 		BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 		BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +136,8 @@
 		BB0D9D5126D25B460099B9CA /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		BB0D9D5326D266770099B9CA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0D9D5626D2E90F0099B9CA /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		BB0D9D5A26D2FFA60099B9CA /* ProfileDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataManager.swift; sourceTree = "<group>"; };
+		BB0D9D5C26D3155D0099B9CA /* ProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponse.swift; sourceTree = "<group>"; };
 		E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -296,6 +298,8 @@
 		BB0D9CA426CDAEE90099B9CA /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9D5926D2FF230099B9CA /* Entity */,
+				BB0D9D5826D2FF180099B9CA /* DataManager */,
 				BB0D9D0726D194CF0099B9CA /* Profile.storyboard */,
 				BB0D9D0B26D247D90099B9CA /* ProfileTableViewController.swift */,
 				BB0D9D0D26D248650099B9CA /* ProfileViewController.swift */,
@@ -316,7 +320,6 @@
 			isa = PBXGroup;
 			children = (
 				BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */,
-				BB0D9CB526CDB0A40099B9CA /* MangoPickViewController.xib */,
 			);
 			path = MangoPick;
 			sourceTree = "<group>";
@@ -421,6 +424,22 @@
 				BB0D9C7326CDAC3B0099B9CA /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		BB0D9D5826D2FF180099B9CA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D5A26D2FFA60099B9CA /* ProfileDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BB0D9D5926D2FF230099B9CA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D5C26D3155D0099B9CA /* ProfileResponse.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		E13C8EE5BD88167B58B21588 /* Pods */ = {
@@ -552,7 +571,6 @@
 				BB0D9D5226D25B460099B9CA /* Splash.storyboard in Resources */,
 				BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */,
 				BB0D9D0A26D2416B0099B9CA /* Main.storyboard in Resources */,
-				BB0D9CB726CDB0A40099B9CA /* MangoPickViewController.xib in Resources */,
 				BB0D9D5426D266770099B9CA /* LaunchScreen.storyboard in Resources */,
 				BB0D9D4E26D25A7E0099B9CA /* Login.storyboard in Resources */,
 				BB0D9C7426CDAC3B0099B9CA /* Assets.xcassets in Resources */,
@@ -709,8 +727,10 @@
 				BB0D9CFC26D04DD80099B9CA /* StoresCollectionViewCell.swift in Sources */,
 				BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */,
 				BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */,
+				BB0D9D5B26D2FFA60099B9CA /* ProfileDataManager.swift in Sources */,
 				BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */,
 				BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */,
+				BB0D9D5D26D3155D0099B9CA /* ProfileResponse.swift in Sources */,
 				BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */,
 				BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */,
 				BB0D9CE926CE4A100099B9CA /* EnterNameViewController.swift in Sources */,

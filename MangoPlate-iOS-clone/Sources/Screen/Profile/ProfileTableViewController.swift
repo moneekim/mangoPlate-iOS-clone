@@ -9,18 +9,60 @@ import UIKit
 
 class ProfileTableViewController: UITableViewController {
 
+    /*
+     var userIdx : Int?
+     var email : String?
+     var phoneNum : String?
+     */
+    
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var followNum: UILabel!
+    @IBOutlet weak var followingNum: UILabel!
+    @IBOutlet weak var reviewNum: UILabel!
+    @IBOutlet weak var wentNum: UILabel!
+    @IBOutlet weak var photoNum: UILabel!
+    @IBOutlet weak var wishNum: UILabel!
+    
+    
+    var userInfo: UserInfo?
+    var profileDataManager = ProfileDataManager()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+            
+        //시도
+        profileDataManager.users(viewController: self)
+        profileDataManager.didFinishFetch = {
+            guard let data = self.profileDataManager.userInfo else {
+                return
+            }
+            
+            //self.image.text = data.profImg
+            self.name.text = data.userName
+            self.followNum.text = "\(data.follower)"
+            self.followingNum.text = "\(data.following)"
+            self.reviewNum.text = "\(data.reviews)"
+            self.wentNum.text = "\(data.went)"
+            self.photoNum.text = "\(data.photos)"
+            self.wishNum.text = "\(data.wish)"
+    
+            guard let userImageURL = URL(string: data.profImg) else {
+                return
+            }
+            //cell.bannerCell.image = UIImage(named: bannerList[indexPath.row])
+            //self.image = UIImageView(userImageURL)
+            self.image.kf.setImage(with: userImageURL)
+        }
+    
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
+    
+    
+    /*
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
@@ -29,8 +71,10 @@ class ProfileTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
-    }
-
+    }*/
+    
+    
+    
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
@@ -49,17 +93,7 @@ class ProfileTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
+
 
     /*
     // Override to support rearranging the table view.
@@ -76,14 +110,26 @@ class ProfileTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+}
+
+extension ProfileTableViewController {
+    // MARK: - Table view data source
+    
+    //테이블 뷰 헤더 섹션의 높이 설정
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat{
+        return 10.0
     }
-    */
 
+    //테이블 뷰 해더 섹션 폰트, 폰트크기 정하기
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
+        let header = view as! UITableViewHeaderFooterView
+        header.contentView.backgroundColor = #colorLiteral(red: 0.9635811237, green: 0.9635811237, blue: 0.9635811237, alpha: 1)
+    }
+    
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//    }
+    
+    
+    
 }

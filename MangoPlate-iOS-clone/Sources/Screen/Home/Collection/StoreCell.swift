@@ -6,26 +6,7 @@
 //
 
 import UIKit
-
-/*
- class UserItemCell: UICollectionViewCell {
-     static let identifier = "UserItemCell"
-     
-     @IBOutlet weak var itemImageView: UIImageView!
-     @IBOutlet weak var itemNameLabel: UILabel!
-     @IBOutlet weak var itemPriceLabel: UILabel!
-     
-     func setUserItemCell() { //post: Post 매개변수에
-         itemImageView.layer.cornerRadius = 5
-         itemImageView.clipsToBounds = true
-         itemImageView.image = UIImage(named: "img8")
-         itemNameLabel.text = "카키색 바람막이 팜"
-         itemPriceLabel.text = "30,000원"
-         
-     }
- }
-
- */
+import Kingfisher
 
 class StoreCell : UICollectionViewCell{
     static let identifier = "storeCell"
@@ -40,12 +21,34 @@ class StoreCell : UICollectionViewCell{
     @IBOutlet weak var storeReview: UILabel!
     
     
+    func updateUI(info: HomeResult){
+        //self.storeImage
+        self.storeIdx.text = "\(info.restaurantIdx)"
+        self.storeName.text = info.name
+        self.storeRate.text = "\(info.rating)"
+        self.storeLocation.text = info.location
+        //self.storeDistance.text = info.
+        self.storeView.text = "\(info.views)"
+        self.storeReview.text = "\(info.reviews)"
+        
+        guard let imagePath = info.profImg else{
+            return
+        }
+        let something = imagePath.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
+        guard let url = something , let url1 = URL(string: url)else {
+            return
+        }
+        self.storeImage.kf.setImage(with: url1)
+
+    }
+    
+    
+    //api 연결전 임시용
     func setUserItemCell() {
         storeImage.clipsToBounds = true
         storeImage.image = UIImage(named: "홈_맛집예시")
         storeName.text = "민속촌 갈비집"
         storeLocation.text = "광주 충장로"
-        
     }
 
     
