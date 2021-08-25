@@ -204,6 +204,17 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
         }
     }
     
+
+    
+    //추가
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let vc = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController else{
+            return
+        }
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+    
     
     //배너 컬렉션뷰 감속 끝났을 때 현재 페이지 체크
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {

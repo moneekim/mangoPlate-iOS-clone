@@ -42,7 +42,6 @@
 		BB0D9D0226D102A20099B9CA /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D0126D102A20099B9CA /* HomeResponse.swift */; };
 		BB0D9D0626D102B40099B9CA /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D0526D102B40099B9CA /* HomeDataManager.swift */; };
 		BB0D9D0826D194CF0099B9CA /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D0726D194CF0099B9CA /* Profile.storyboard */; };
-		BB0D9D0A26D2416B0099B9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D0926D2416B0099B9CA /* Main.storyboard */; };
 		BB0D9D0C26D247D90099B9CA /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D0B26D247D90099B9CA /* ProfileTableViewController.swift */; };
 		BB0D9D0E26D248650099B9CA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D0D26D248650099B9CA /* ProfileViewController.swift */; };
 		BB0D9D4C26D25A3B0099B9CA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D4B26D25A3B0099B9CA /* Home.storyboard */; };
@@ -61,6 +60,8 @@
 		BB0D9D6D26D4EA5B0099B9CA /* EatDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D6C26D4EA5B0099B9CA /* EatDealViewController.swift */; };
 		BB0D9D7026D4EE000099B9CA /* EatDealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D6F26D4EE000099B9CA /* EatDealTableViewCell.swift */; };
 		BB0D9D7226D67D770099B9CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D7126D67D770099B9CA /* DetailViewController.swift */; };
+		BB0D9DB626D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9DB426D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift */; };
+		BB0D9DB726D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9DB526D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,7 +128,6 @@
 		BB0D9D0126D102A20099B9CA /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
 		BB0D9D0526D102B40099B9CA /* HomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
 		BB0D9D0726D194CF0099B9CA /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
-		BB0D9D0926D2416B0099B9CA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BB0D9D0B26D247D90099B9CA /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		BB0D9D0D26D248650099B9CA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BB0D9D4B26D25A3B0099B9CA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -146,6 +146,8 @@
 		BB0D9D6C26D4EA5B0099B9CA /* EatDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatDealViewController.swift; sourceTree = "<group>"; };
 		BB0D9D6F26D4EE000099B9CA /* EatDealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatDealTableViewCell.swift; sourceTree = "<group>"; };
 		BB0D9D7126D67D770099B9CA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BB0D9DB426D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB0D9DB526D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPictureCollectionViewCell.xib; sourceTree = "<group>"; };
 		E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +195,6 @@
 			children = (
 				BB0D9C6926CDAC3A0099B9CA /* MangoPlate-iOS-clone */,
 				BB0D9CFE26D0F5590099B9CA /* README.md */,
-				BB0D9C7826CDAC3B0099B9CA /* Info.plist */,
 				BB0D9C8026CDAC3B0099B9CA /* MangoPlate-iOS-cloneTests */,
 				BB0D9C8B26CDAC3B0099B9CA /* MangoPlate-iOS-cloneUITests */,
 				BB0D9C6826CDAC3A0099B9CA /* Products */,
@@ -218,7 +219,6 @@
 				BB0D9CA826CDAF830099B9CA /* Configuration */,
 				BB0D9C9F26CDAEB50099B9CA /* Sources */,
 				BB0D9D5526D2AFBB0099B9CA /* Resource */,
-				BB0D9D0926D2416B0099B9CA /* Main.storyboard */,
 			);
 			path = "MangoPlate-iOS-clone";
 			sourceTree = "<group>";
@@ -244,6 +244,7 @@
 		BB0D9C9F26CDAEB50099B9CA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9DB326D6A5AF0099B9CA /* TabBar */,
 				BB0D9CA126CDAED20099B9CA /* Screen */,
 				BB0D9CA026CDAECA0099B9CA /* Splash */,
 			);
@@ -254,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */,
+				BB0D9D5326D266770099B9CA /* LaunchScreen.storyboard */,
 				BB0D9D5126D25B460099B9CA /* Splash.storyboard */,
 			);
 			path = Splash;
@@ -269,10 +271,6 @@
 				BB0D9CA426CDAEE90099B9CA /* Profile */,
 				BB0D9CA326CDAEE10099B9CA /* Login */,
 				BB0D9CA226CDAED80099B9CA /* SignUp */,
-				BB0D9CED26CED8780099B9CA /* TabBar.storyboard */,
-				BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */,
-				BB0D9D5326D266770099B9CA /* LaunchScreen.storyboard */,
-				BB0D9D6A26D4E16B0099B9CA /* TabBar2ViewController.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -341,8 +339,8 @@
 				BB0D9CFF26D102770099B9CA /* DataManager */,
 				BB0D9CF126CFF6AB0099B9CA /* Cell */,
 				BB0D9CF626D024E00099B9CA /* HomeViewController.swift */,
-				BB0D9D4B26D25A3B0099B9CA /* Home.storyboard */,
 				BB0D9D7126D67D770099B9CA /* DetailViewController.swift */,
+				BB0D9D4B26D25A3B0099B9CA /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -407,6 +405,8 @@
 				BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */,
 				BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */,
 				BB0D9D5626D2E90F0099B9CA /* StoreCell.swift */,
+				BB0D9DB526D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib */,
+				BB0D9DB426D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -430,6 +430,7 @@
 		BB0D9D5526D2AFBB0099B9CA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9C7826CDAC3B0099B9CA /* Info.plist */,
 				BB0D9C6A26CDAC3A0099B9CA /* AppDelegate.swift */,
 				BB0D9C6C26CDAC3A0099B9CA /* SceneDelegate.swift */,
 				BB0D9C7326CDAC3B0099B9CA /* Assets.xcassets */,
@@ -476,6 +477,16 @@
 				BB0D9D6F26D4EE000099B9CA /* EatDealTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		BB0D9DB326D6A5AF0099B9CA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D6A26D4E16B0099B9CA /* TabBar2ViewController.swift */,
+				BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */,
+				BB0D9CED26CED8780099B9CA /* TabBar.storyboard */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		E13C8EE5BD88167B58B21588 /* Pods */ = {
@@ -599,13 +610,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0D9DB726D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib in Resources */,
 				BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */,
 				BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */,
 				BB0D9D6226D4CDC40099B9CA /* News.storyboard in Resources */,
 				BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */,
 				BB0D9D5226D25B460099B9CA /* Splash.storyboard in Resources */,
 				BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */,
-				BB0D9D0A26D2416B0099B9CA /* Main.storyboard in Resources */,
 				BB0D9D5426D266770099B9CA /* LaunchScreen.storyboard in Resources */,
 				BB0D9D4E26D25A7E0099B9CA /* Login.storyboard in Resources */,
 				BB0D9C7426CDAC3B0099B9CA /* Assets.xcassets in Resources */,
@@ -774,6 +785,7 @@
 				BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */,
 				BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */,
 				BB0D9CE926CE4A100099B9CA /* EnterNameViewController.swift in Sources */,
+				BB0D9DB626D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift in Sources */,
 				BB0D9CD626CDB5460099B9CA /* LoginDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -933,7 +945,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MangoPlate-iOS-clone/Info.plist";
+				INFOPLIST_FILE = "MangoPlate-iOS-clone/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -953,7 +965,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MangoPlate-iOS-clone/Info.plist";
+				INFOPLIST_FILE = "MangoPlate-iOS-clone/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
