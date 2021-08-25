@@ -8,12 +8,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Profile View Controller-->
+        <!--item-->
         <scene sceneID="4JL-SB-MK9">
             <objects>
-                <navigationController storyboardIdentifier="ProfileViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TaG-vs-Wms" customClass="ProfileViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ProfileViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="TaG-vs-Wms" customClass="ProfileViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="item" id="AnP-dj-8wT"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gam-7p-0yX">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -47,7 +48,7 @@
                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25" weight="ultraLight"/>
                                     </state>
                                 </button>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="스샷_프사" translatesAutoresizingMaskIntoConstraints="NO" id="YhE-ng-UQO">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="탭바_내정보" translatesAutoresizingMaskIntoConstraints="NO" id="YhE-ng-UQO">
                                     <rect key="frame" x="23" y="94" width="76" height="76"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="76" id="mJ9-i7-MVb"/>
@@ -602,7 +603,7 @@
         <image name="내정보_이벤트" width="178" height="178"/>
         <image name="내정보_잇딜입고알림" width="164" height="150"/>
         <image name="내정보_타임라인" width="190" height="152"/>
-        <image name="스샷_프사" width="83.333335876464844" height="80.666664123535156"/>
+        <image name="탭바_내정보" width="58.666667938232422" height="53.333332061767578"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -7,7 +7,10 @@
 
 import UIKit
 
+//UIViewController 상속 지움
 class TabBarViewController: UIViewController {
+    
+  
 
     @IBOutlet weak var contentView: UIView!
     @IBOutlet var contentContainer: UIView!

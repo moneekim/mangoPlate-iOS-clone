@@ -11,18 +11,20 @@ class LoginRequestViewController: UIViewController {
 
     @IBAction func skipBtn(_ sender: Any) {
         
-       
         //let secondStoryboard = UIStoryboard.init(name: "Profile", bundle: nil)
         //guard let second = secondStoryboard.instantiateViewController(identifier: "ProfileViewController") as? ProfileViewController else {return}
         /*
         let secondStoryboard = UIStoryboard.init(name: "Home", bundle: nil)
         guard let second = secondStoryboard.instantiateViewController(identifier: "HomeViewController") as? HomeViewController else {return}
  */
-        let secondStoryboard = UIStoryboard.init(name: "Profile", bundle: nil)
-        guard let second = secondStoryboard.instantiateViewController(identifier: "ProfileViewController") as? ProfileViewController else {return}
+        
+        //탭바 시도!
+        /*
+        let secondStoryboard = UIStoryboard.init(name: "Home", bundle: nil)
+        guard let second = secondStoryboard.instantiateViewController(identifier: "HomeViewController") as? HomeViewController else {return}
         second.modalPresentationStyle = .overFullScreen
         present(second, animated: true, completion: nil)
-         
+         */
         
         /*
          guard let profileVC = UIStoryboard(name: "ProfileStoryboard", bundle: nil).instantiateViewController(identifier: "UnLoginProfileView") as? UnLoginViewController else {
@@ -61,6 +63,12 @@ class LoginRequestViewController: UIViewController {
         //let nextVC = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
         nextVC.modalPresentationStyle = .overFullScreen
         self.present(nextVC, animated: true, completion: nil)
+        */
+        /*
+        let secondStoryboard = UIStoryboard.init(name: "Login", bundle: nil)
+        guard let second = secondStoryboard.instantiateViewController(identifier: "ProfileViewController") as? ProfileViewController else {return}
+        second.modalPresentationStyle = .overFullScreen
+        present(second, animated: true, completion: nil)
         */
         
         

@@ -14,6 +14,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
+        
+        //탭바 시도
+        //window?.rootViewController = BaseTabBarController()       => 에러 생김
+        
+        
+        
         /*  //xib 방식이리 때
         guard let scene = scene as? UIWindowScene else { return }
         

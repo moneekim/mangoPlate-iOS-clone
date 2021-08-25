@@ -36,6 +36,7 @@
                                 </state>
                                 <connections>
                                     <action selector="skipBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eMe-Ey-Pcr"/>
+                                    <segue destination="EXZ-pN-KB7" kind="show" id="PTA-bB-nbj"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="RaX-gb-aoV">
@@ -129,6 +130,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
+                                                    <action selector="emailLoginBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qEW-bS-Dge"/>
                                                     <segue destination="2Qa-8s-dhr" kind="show" id="GhT-WL-64V"/>
                                                 </connections>
                                             </button>
@@ -169,6 +171,16 @@
             </objects>
             <point key="canvasLocation" x="130.76923076923077" y="46.919431279620852"/>
         </scene>
+        <!--TabBarId-->
+        <scene sceneID="xFy-Tw-iNL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabBar" referencedIdentifier="TabBarId" id="EXZ-pN-KB7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Kno-lV-FEl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BsX-rc-FWI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="525"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="vTu-Ru-wYT">
             <objects>
@@ -189,7 +201,7 @@
         <!--Login View Controller-->
         <scene sceneID="HW4-pa-1xf">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ug1-T7-RK1" customClass="LoginViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ug1-T7-RK1" customClass="LoginViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2bf-b2-Gjc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,6 +227,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="editId:" destination="ug1-T7-RK1" eventType="editingChanged" id="HOT-da-zJP"/>
+                                                        </connections>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호 입력(6~12자)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="siL-XN-6Ch">
                                                         <rect key="frame" x="0.0" y="69" width="340" height="40"/>
@@ -224,6 +239,10 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                        <connections>
+                                                            <action selector="edintChange:" destination="ug1-T7-RK1" eventType="editingDidEnd" id="eip-w8-o3f"/>
+                                                            <action selector="editPwd:" destination="ug1-T7-RK1" eventType="editingDidEnd" id="ACE-vL-8ek"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -311,7 +330,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="7F0-ro-K2h">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="gTf-CB-Uiz" customClass="SignUpViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gTf-CB-Uiz" customClass="SignUpViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fuV-2l-2ke">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -324,6 +343,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="editEmail:" destination="gTf-CB-Uiz" eventType="editingChanged" id="uHC-T7-mgd"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IG7-zb-FNj">
                                 <rect key="frame" x="63" y="141" width="264" height="50"/>
@@ -351,7 +373,7 @@
                                     <constraint firstAttribute="height" constant="40" id="Nvf-aQ-STm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최소 6~12자, 영문, 숫자 포함" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbE-pJ-lfZ">
                                 <rect key="frame" x="31" y="248" width="328" height="14.666666666666686"/>
@@ -370,13 +392,16 @@
                                     <constraint firstAttribute="height" constant="40" id="xjg-Pi-l2T"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="editConfirmPwd:" destination="gTf-CB-Uiz" eventType="editingChanged" id="OYb-Ph-huo"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bID-vw-fA1">
-                                <rect key="frame" x="0.0" y="666" width="390" height="90"/>
+                                <rect key="frame" x="0.0" y="690" width="390" height="100"/>
                                 <color key="backgroundColor" red="0.79607844350000001" green="0.79607844350000001" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="hCa-5T-WrU"/>
+                                    <constraint firstAttribute="height" constant="100" id="qAo-JP-m3J"/>
                                 </constraints>
                                 <state key="normal" title="다음">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -400,7 +425,7 @@
                             <constraint firstItem="IbE-pJ-lfZ" firstAttribute="leading" secondItem="L85-nY-YFB" secondAttribute="leading" constant="31" id="D7I-Vx-sD2"/>
                             <constraint firstItem="bID-vw-fA1" firstAttribute="leading" secondItem="L85-nY-YFB" secondAttribute="leading" id="FVL-Yv-PTc"/>
                             <constraint firstItem="Vro-y1-ocJ" firstAttribute="top" secondItem="L85-nY-YFB" secondAttribute="top" constant="30" id="Mhe-vD-bFa"/>
-                            <constraint firstItem="L85-nY-YFB" firstAttribute="bottom" secondItem="bID-vw-fA1" secondAttribute="bottom" id="aQ6-EN-DZU"/>
+                            <constraint firstAttribute="bottom" secondItem="bID-vw-fA1" secondAttribute="bottom" id="aCH-V1-JeU"/>
                             <constraint firstItem="L85-nY-YFB" firstAttribute="trailing" secondItem="IbE-pJ-lfZ" secondAttribute="trailing" constant="31" id="iP6-r3-B8H"/>
                             <constraint firstItem="x0H-jx-JWp" firstAttribute="top" secondItem="IG7-zb-FNj" secondAttribute="bottom" constant="15" id="jJe-8i-qmc"/>
                             <constraint firstItem="L85-nY-YFB" firstAttribute="trailing" secondItem="bID-vw-fA1" secondAttribute="trailing" id="okD-qk-hUc"/>
@@ -408,8 +433,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="Jmg-ej-EeG"/>
                     <connections>
+                        <outlet property="authEmailButton" destination="IG7-zb-FNj" id="hoS-MU-6dJ"/>
                         <outlet property="confirmPwd" destination="6wf-e4-1kw" id="N7T-we-DZy"/>
                         <outlet property="emailInput" destination="Vro-y1-ocJ" id="XBp-2H-2WQ"/>
+                        <outlet property="nextButton" destination="bID-vw-fA1" id="Awb-pi-0T9"/>
                         <outlet property="pwdInput" destination="x0H-jx-JWp" id="Rxx-Rb-hzy"/>
                     </connections>
                 </viewController>
@@ -420,7 +447,7 @@
         <!--Auth Phone Num Controller-->
         <scene sceneID="hce-dt-B0n">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="HH4-Lc-roS" customClass="AuthPhoneNumController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthPhoneNumController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HH4-Lc-roS" customClass="AuthPhoneNumController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H5e-4z-Ebv">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -463,6 +490,9 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="editPhoneNum:" destination="HH4-Lc-roS" eventType="editingChanged" id="ydO-mH-OL1"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                         <edgeInsets key="layoutMargins" top="0.0" left="10" bottom="8" right="10"/>
@@ -524,6 +554,7 @@
                     <navigationItem key="navigationItem" id="ie2-Hi-1xg"/>
                     <connections>
                         <outlet property="label" destination="q8b-kS-FmM" id="SLT-NU-KPy"/>
+                        <outlet property="nextBtn" destination="AUq-6J-rHn" id="ltj-6w-kbf"/>
                         <outlet property="phoneNumInput" destination="9ud-cy-8PV" id="hqh-N7-8cT"/>
                     </connections>
                 </viewController>
@@ -534,7 +565,7 @@
         <!--Enter Name View Controller-->
         <scene sceneID="5u9-LH-HeX">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ZCW-fz-UHc" customClass="EnterNameViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EnterNameViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZCW-fz-UHc" customClass="EnterNameViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="FC6-zl-HmD">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -558,7 +589,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T4A-EB-RuP">
-                                <rect key="frame" x="0.0" y="259" width="390" height="407"/>
+                                <rect key="frame" x="0.0" y="259" width="390" height="431"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lwm-YS-621">
                                         <rect key="frame" x="20" y="8" width="350" height="50"/>
@@ -582,6 +613,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="editName:" destination="ZCW-fz-UHc" eventType="editingChanged" id="mKB-Rf-lKc"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -599,8 +633,11 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDZ-el-nr0">
-                                <rect key="frame" x="0.0" y="666" width="390" height="90"/>
+                                <rect key="frame" x="0.0" y="690" width="390" height="100"/>
                                 <color key="backgroundColor" red="0.79607844350000001" green="0.79607844350000001" blue="0.79607844350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="dZq-NK-2Td"/>
+                                </constraints>
                                 <state key="normal" title="완료">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -613,14 +650,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aDZ-el-nr0" firstAttribute="leading" secondItem="Kds-Oq-DeF" secondAttribute="leading" id="5IU-62-JyC"/>
-                            <constraint firstItem="Kds-Oq-DeF" firstAttribute="bottom" secondItem="T4A-EB-RuP" secondAttribute="bottom" constant="90" id="5jt-2L-f29"/>
                             <constraint firstItem="7Ur-Vk-ZRF" firstAttribute="centerX" secondItem="Kds-Oq-DeF" secondAttribute="centerX" id="93n-Dg-KtJ"/>
                             <constraint firstItem="T4A-EB-RuP" firstAttribute="leading" secondItem="Kds-Oq-DeF" secondAttribute="leading" id="Crg-bl-PHG"/>
                             <constraint firstItem="T4A-EB-RuP" firstAttribute="top" secondItem="7Ur-Vk-ZRF" secondAttribute="bottom" id="Y1c-zE-FYj"/>
-                            <constraint firstItem="Kds-Oq-DeF" firstAttribute="bottom" secondItem="aDZ-el-nr0" secondAttribute="bottom" id="Ztn-Ot-7uZ"/>
                             <constraint firstItem="7Ur-Vk-ZRF" firstAttribute="leading" secondItem="Kds-Oq-DeF" secondAttribute="leading" id="bcI-qL-4pt"/>
                             <constraint firstItem="7Ur-Vk-ZRF" firstAttribute="top" secondItem="FC6-zl-HmD" secondAttribute="top" id="cOy-xx-agO"/>
                             <constraint firstItem="aDZ-el-nr0" firstAttribute="top" secondItem="T4A-EB-RuP" secondAttribute="bottom" id="igX-ij-hm4"/>
+                            <constraint firstAttribute="bottom" secondItem="aDZ-el-nr0" secondAttribute="bottom" id="ldR-G6-97b"/>
                             <constraint firstItem="Kds-Oq-DeF" firstAttribute="trailing" secondItem="T4A-EB-RuP" secondAttribute="trailing" id="oe4-90-80L"/>
                             <constraint firstItem="7Ur-Vk-ZRF" firstAttribute="trailing" secondItem="Kds-Oq-DeF" secondAttribute="trailing" id="ueu-d4-EBr"/>
                             <constraint firstItem="Kds-Oq-DeF" firstAttribute="trailing" secondItem="aDZ-el-nr0" secondAttribute="trailing" id="vLg-T5-fum"/>
@@ -629,6 +665,7 @@
                     <navigationItem key="navigationItem" id="kxz-j6-L00"/>
                     <connections>
                         <outlet property="backNaviBtn" destination="kxz-j6-L00" id="sJG-EA-rd2"/>
+                        <outlet property="enterButton" destination="aDZ-el-nr0" id="fDG-Ag-Kot"/>
                         <outlet property="frameLine" destination="Lwm-YS-621" id="R8Z-NR-KNo"/>
                         <outlet property="nameInput" destination="kQX-8N-TkQ" id="u8C-3U-ln6"/>
                     </connections>

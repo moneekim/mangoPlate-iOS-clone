@@ -4,7 +4,7 @@
 //
 //  Created by 김모경 on 2021/08/19.
 //
-
+//import UIKit
 import Alamofire
 
 class LoginDataManager{
@@ -16,6 +16,8 @@ class LoginDataManager{
                 switch response.result{
                 case .success(let response):
                     print("로그인 성공 !")
+                    
+                    
                 case .failure(let error):
                     print("로그인 실패 !")
                 }

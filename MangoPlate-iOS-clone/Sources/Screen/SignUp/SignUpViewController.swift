@@ -17,7 +17,19 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var emailInput: UITextField!
     @IBOutlet weak var pwdInput: UITextField!
     @IBOutlet weak var confirmPwd: UITextField!
+    @IBOutlet weak var authEmailButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
     
+    var tempEmail : String = ""
+    var tempPwd : String = ""
+
+    @IBAction func editEmail(_ sender: Any) {
+        authEmailButton.backgroundColor = .orange
+    }
+    
+    @IBAction func editConfirmPwd(_ sender: Any) {
+        nextButton.backgroundColor = .orange
+    }
     
     @IBAction func authEmail(_ sender: Any) {
     }
@@ -31,15 +43,23 @@ class SignUpViewController: UIViewController {
 //        if pwdInput == confirmPwd{
 //            guard let password = pwdInput.text, !password.isEmpty else { return }
         
+        tempEmail = email
+        tempPwd = password
         
-        /*
         //# api 연결할때 데이터 보내기 <= 스토리보드 방식으로 바꿔야함
-        let nextVC = AuthPhoneNumController(nibName: "AuthPhoneNumController", bundle: nil)
-        nextVC.tempEmail = email
-        nextVC.tempPwd = password
-        nextVC.modalPresentationStyle = .overFullScreen
-        self.present(nextVC, animated: true, completion: nil)
+        /*
+        let nextVC = UIStoryboard.init(name: "Login", bundle: nil)
+        guard let second = nextVC.instantiateViewController(identifier: "AuthPhoneNumController") as? AuthPhoneNumController else {return}
+        
+        second.modalPresentationStyle = .overFullScreen
+        present(second, animated: true, completion: nil)
         */
+        //let nextVC = AuthPhoneNumController(nibName: "AuthPhoneNumController", bundle: nil)
+        //nextVC.tempEmail = email
+        //nextVC.tempPwd = password
+        //nextVC.modalPresentationStyle = .overFullScreen
+        //self.present(nextVC, animated: true, completion: nil)
+        
     
     
     
@@ -60,7 +80,11 @@ class SignUpViewController: UIViewController {
         return false
     }
     */
-    
+    /*
+    override func viewWillAppear(_ animated: Bool) {
+            self.emailInput.becomeFirstResponder()
+        }
+    */
     
     override func viewDidLoad() {
         super.viewDidLoad()

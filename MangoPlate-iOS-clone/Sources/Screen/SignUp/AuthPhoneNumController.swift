@@ -13,15 +13,28 @@ protocol SendPhoneNumDelegate {
 
 class AuthPhoneNumController: UIViewController {
 
-    var tempEmail = ""
-    var tempPwd = ""
+    //var tempEmail = ""
+    //var tempPwd = ""
+    
+    var tempNum : String = ""
+    
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var phoneNumInput: UITextField!
+    @IBOutlet weak var nextBtn: UIButton!
+    
+    var num : String?
+    
+    @IBAction func editPhoneNum(_ sender: Any) {
+        nextBtn.backgroundColor = .orange
+    }
+    
     
     @IBAction func nextButton(_ sender: Any) {
         
         guard let phoneNum = phoneNumInput.text, !phoneNum.isEmpty else { return }
+        
+        tempNum = phoneNum
         
         /*
         let nextVC = EnterNameViewController(nibName: "EnterNameViewController", bundle: nil)
@@ -38,6 +51,8 @@ class AuthPhoneNumController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        //num = phoneNumInput.text
         
          //네비게이션 바 설정
          self.navigationController?.navigationBar.tintColor = .darkGray

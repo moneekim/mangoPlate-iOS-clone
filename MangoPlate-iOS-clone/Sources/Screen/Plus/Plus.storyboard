@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--iem-->
+        <scene sceneID="0JZ-AU-YFj">
+            <objects>
+                <navigationController storyboardIdentifier="GoPlus" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="9fJ-ux-6so" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="iem" id="brA-j2-XHu"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mnS-bA-tua">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PWZ-Wt-Yvw" kind="relationship" relationship="rootViewController" id="uRT-Di-3fM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dHt-mA-Uya" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.811594202898561" y="37.5"/>
+        </scene>
+        <!--Plus View Controller-->
+        <scene sceneID="Mnj-JE-oLn">
+            <objects>
+                <viewController storyboardIdentifier="PlusViewController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PWZ-Wt-Yvw" customClass="PlusViewController" customModule="MangoPlate_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nkg-89-lOo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="cYL-Lf-F7V">
+                                <rect key="frame" x="59" y="412" width="236" height="277"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="bdx-XG-5mt">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="277"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebu-sE-T3l">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Ebu-sE-T3l" secondAttribute="height" multiplier="25:26" id="gml-Sl-s2J"/>
+                                                    <constraint firstAttribute="width" constant="50" id="mae-3B-IgG"/>
+                                                </constraints>
+                                                <state key="normal" image="플_잇딜"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U25-PE-RZT">
+                                                <rect key="frame" x="0.0" y="75" width="50" height="52"/>
+                                                <state key="normal" image="플_가봤어요"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlV-Gj-WOk">
+                                                <rect key="frame" x="0.0" y="150" width="50" height="52"/>
+                                                <state key="normal" image="플_리뷰쓰기"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVh-K7-Sdd">
+                                                <rect key="frame" x="0.0" y="225" width="50" height="52"/>
+                                                <state key="normal" image="플_식당등록"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="5MG-ML-nIp">
+                                        <rect key="frame" x="78" y="0.0" width="158" height="277"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5d-Uw-Izd">
+                                                <rect key="frame" x="0.0" y="0.0" width="158" height="42.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                <state key="normal" title="EAT딜 보러가기">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="didTapGoEatDeal:" destination="aRo-Ue-ewn" eventType="touchUpInside" id="n79-rZ-ZFa"/>
+                                                    <segue destination="Pqd-a5-osl" kind="show" id="is7-6X-UJ8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0h-p2-COQ">
+                                                <rect key="frame" x="0.0" y="78.5" width="87" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                <state key="normal" title="가봤어요">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsW-CH-zA8">
+                                                <rect key="frame" x="0.0" y="156.5" width="87" height="42.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                <state key="normal" title="리뷰쓰기">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yve-nw-Yg4">
+                                                <rect key="frame" x="0.0" y="235" width="130" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                <state key="normal" title="식당등록하기">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bv0-i2-vBe"/>
+                        <color key="backgroundColor" red="0.99607843159999998" green="0.44313728810000003" blue="0.01176470611" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Bv0-i2-vBe" firstAttribute="bottom" secondItem="cYL-Lf-F7V" secondAttribute="bottom" constant="124" id="3vd-8O-Eer"/>
+                            <constraint firstItem="cYL-Lf-F7V" firstAttribute="centerX" secondItem="Bv0-i2-vBe" secondAttribute="centerX" constant="-30" id="siZ-p0-MBh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="13c-ls-FTt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7x-pG-MtV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="aRo-Ue-ewn" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="95"/>
+        </scene>
+        <!--GoMangoPick-->
+        <scene sceneID="S1x-FJ-b2n">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MangoPick" referencedIdentifier="GoMangoPick" id="Pqd-a5-osl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5gD-pb-fmB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bI-aK-wyw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="95"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="플_가봤어요" width="202" height="234"/>
+        <image name="플_리뷰쓰기" width="192" height="176"/>
+        <image name="플_식당등록" width="198" height="202"/>
+        <image name="플_잇딜" width="200" height="178"/>
+    </resources>
+</document>

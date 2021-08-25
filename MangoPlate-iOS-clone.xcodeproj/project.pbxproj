@@ -19,12 +19,10 @@
 		BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */; };
 		BB0D9CB626CDB0A40099B9CA /* MangoPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */; };
 		BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */; };
-		BB0D9CBC26CDB0BC0099B9CA /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */; };
 		BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */; };
 		BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */; };
 		BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */; };
 		BB0D9CCF26CDB16B0099B9CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */; };
-		BB0D9CD026CDB16B0099B9CA /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CCE26CDB16B0099B9CA /* SignUpViewController.xib */; };
 		BB0D9CD226CDB5180099B9CA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */; };
 		BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD326CDB5310099B9CA /* LoginInput.swift */; };
 		BB0D9CD626CDB5460099B9CA /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD526CDB5460099B9CA /* LoginDataManager.swift */; };
@@ -33,15 +31,12 @@
 		BB0D9CDC26CDB8000099B9CA /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CDB26CDB8000099B9CA /* SignUpResponse.swift */; };
 		BB0D9CDE26CDB8C00099B9CA /* SignUpDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CDD26CDB8C00099B9CA /* SignUpDataManager.swift */; };
 		BB0D9CE126CE18D60099B9CA /* AuthPhoneNumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CDF26CE18D60099B9CA /* AuthPhoneNumController.swift */; };
-		BB0D9CE226CE18D60099B9CA /* AuthPhoneNumController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */; };
 		BB0D9CE926CE4A100099B9CA /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */; };
-		BB0D9CEA26CE4A100099B9CA /* EnterNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */; };
 		BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CED26CED8780099B9CA /* TabBar.storyboard */; };
 		BB0D9CF026CED88D0099B9CA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */; };
 		BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */; };
 		BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */; };
 		BB0D9CF826D024E00099B9CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CF626D024E00099B9CA /* HomeViewController.swift */; };
-		BB0D9CF926D024E00099B9CA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CF726D024E00099B9CA /* HomeViewController.xib */; };
 		BB0D9CFC26D04DD80099B9CA /* StoresCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */; };
 		BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */; };
 		BB0D9D0226D102A20099B9CA /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D0126D102A20099B9CA /* HomeResponse.swift */; };
@@ -57,6 +52,15 @@
 		BB0D9D5726D2E90F0099B9CA /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D5626D2E90F0099B9CA /* StoreCell.swift */; };
 		BB0D9D5B26D2FFA60099B9CA /* ProfileDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D5A26D2FFA60099B9CA /* ProfileDataManager.swift */; };
 		BB0D9D5D26D3155D0099B9CA /* ProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D5C26D3155D0099B9CA /* ProfileResponse.swift */; };
+		BB0D9D6026D4C8360099B9CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D5F26D4C8360099B9CA /* BaseViewController.swift */; };
+		BB0D9D6226D4CDC40099B9CA /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D6126D4CDC40099B9CA /* News.storyboard */; };
+		BB0D9D6426D4CDDF0099B9CA /* MangoPick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D6326D4CDDF0099B9CA /* MangoPick.storyboard */; };
+		BB0D9D6626D4CECB0099B9CA /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D6526D4CECB0099B9CA /* PlusViewController.swift */; };
+		BB0D9D6926D4D9EB0099B9CA /* Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9D6826D4D9EB0099B9CA /* Plus.storyboard */; };
+		BB0D9D6B26D4E16B0099B9CA /* TabBar2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D6A26D4E16B0099B9CA /* TabBar2ViewController.swift */; };
+		BB0D9D6D26D4EA5B0099B9CA /* EatDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D6C26D4EA5B0099B9CA /* EatDealViewController.swift */; };
+		BB0D9D7026D4EE000099B9CA /* EatDealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D6F26D4EE000099B9CA /* EatDealTableViewCell.swift */; };
+		BB0D9D7226D67D770099B9CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D7126D67D770099B9CA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,12 +103,10 @@
 		BB0D9CAC26CDB00E0099B9CA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPickViewController.swift; sourceTree = "<group>"; };
 		BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 		BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewController.swift; sourceTree = "<group>"; };
 		BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		BB0D9CCE26CDB16B0099B9CA /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		BB0D9CD326CDB5310099B9CA /* LoginInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInput.swift; sourceTree = "<group>"; };
 		BB0D9CD526CDB5460099B9CA /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
@@ -113,15 +115,12 @@
 		BB0D9CDB26CDB8000099B9CA /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
 		BB0D9CDD26CDB8C00099B9CA /* SignUpDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDataManager.swift; sourceTree = "<group>"; };
 		BB0D9CDF26CE18D60099B9CA /* AuthPhoneNumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPhoneNumController.swift; sourceTree = "<group>"; };
-		BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthPhoneNumController.xib; sourceTree = "<group>"; };
 		BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
-		BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterNameViewController.xib; sourceTree = "<group>"; };
 		BB0D9CED26CED8780099B9CA /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 		BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB0D9CF326CFF6E90099B9CA /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
 		BB0D9CF626D024E00099B9CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		BB0D9CF726D024E00099B9CA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		BB0D9CFA26D04DD80099B9CA /* StoresCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoresCollectionViewCell.xib; sourceTree = "<group>"; };
 		BB0D9CFE26D0F5590099B9CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -138,6 +137,15 @@
 		BB0D9D5626D2E90F0099B9CA /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
 		BB0D9D5A26D2FFA60099B9CA /* ProfileDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataManager.swift; sourceTree = "<group>"; };
 		BB0D9D5C26D3155D0099B9CA /* ProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponse.swift; sourceTree = "<group>"; };
+		BB0D9D5F26D4C8360099B9CA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BB0D9D6126D4CDC40099B9CA /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		BB0D9D6326D4CDDF0099B9CA /* MangoPick.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MangoPick.storyboard; sourceTree = "<group>"; };
+		BB0D9D6526D4CECB0099B9CA /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
+		BB0D9D6826D4D9EB0099B9CA /* Plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Plus.storyboard; sourceTree = "<group>"; };
+		BB0D9D6A26D4E16B0099B9CA /* TabBar2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar2ViewController.swift; sourceTree = "<group>"; };
+		BB0D9D6C26D4EA5B0099B9CA /* EatDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatDealViewController.swift; sourceTree = "<group>"; };
+		BB0D9D6F26D4EE000099B9CA /* EatDealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatDealTableViewCell.swift; sourceTree = "<group>"; };
+		BB0D9D7126D67D770099B9CA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +193,7 @@
 			children = (
 				BB0D9C6926CDAC3A0099B9CA /* MangoPlate-iOS-clone */,
 				BB0D9CFE26D0F5590099B9CA /* README.md */,
+				BB0D9C7826CDAC3B0099B9CA /* Info.plist */,
 				BB0D9C8026CDAC3B0099B9CA /* MangoPlate-iOS-cloneTests */,
 				BB0D9C8B26CDAC3B0099B9CA /* MangoPlate-iOS-cloneUITests */,
 				BB0D9C6826CDAC3A0099B9CA /* Products */,
@@ -210,7 +219,6 @@
 				BB0D9C9F26CDAEB50099B9CA /* Sources */,
 				BB0D9D5526D2AFBB0099B9CA /* Resource */,
 				BB0D9D0926D2416B0099B9CA /* Main.storyboard */,
-				BB0D9C7826CDAC3B0099B9CA /* Info.plist */,
 			);
 			path = "MangoPlate-iOS-clone";
 			sourceTree = "<group>";
@@ -254,6 +262,7 @@
 		BB0D9CA126CDAED20099B9CA /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9D6726D4D9290099B9CA /* Plus */,
 				BB0D9CA726CDAEFA0099B9CA /* Home */,
 				BB0D9CA626CDAEF40099B9CA /* MangoPick */,
 				BB0D9CA526CDAEEF0099B9CA /* News */,
@@ -263,6 +272,7 @@
 				BB0D9CED26CED8780099B9CA /* TabBar.storyboard */,
 				BB0D9CEF26CED88D0099B9CA /* TabBarViewController.swift */,
 				BB0D9D5326D266770099B9CA /* LaunchScreen.storyboard */,
+				BB0D9D6A26D4E16B0099B9CA /* TabBar2ViewController.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -273,11 +283,8 @@
 				BB0D9CC426CDB0EB0099B9CA /* Entity */,
 				BB0D9CC326CDB0E10099B9CA /* DataManager */,
 				BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */,
-				BB0D9CCE26CDB16B0099B9CA /* SignUpViewController.xib */,
 				BB0D9CDF26CE18D60099B9CA /* AuthPhoneNumController.swift */,
-				BB0D9CE026CE18D60099B9CA /* AuthPhoneNumController.xib */,
 				BB0D9CE726CE4A100099B9CA /* EnterNameViewController.swift */,
-				BB0D9CE826CE4A100099B9CA /* EnterNameViewController.xib */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -311,7 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */,
-				BB0D9CBA26CDB0BC0099B9CA /* NewsViewController.xib */,
+				BB0D9D6126D4CDC40099B9CA /* News.storyboard */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -319,7 +326,10 @@
 		BB0D9CA626CDAEF40099B9CA /* MangoPick */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9D6E26D4EDBC0099B9CA /* Cell */,
 				BB0D9CB426CDB0A40099B9CA /* MangoPickViewController.swift */,
+				BB0D9D6326D4CDDF0099B9CA /* MangoPick.storyboard */,
+				BB0D9D6C26D4EA5B0099B9CA /* EatDealViewController.swift */,
 			);
 			path = MangoPick;
 			sourceTree = "<group>";
@@ -329,10 +339,10 @@
 			children = (
 				BB0D9D0026D102800099B9CA /* Entity */,
 				BB0D9CFF26D102770099B9CA /* DataManager */,
-				BB0D9CF126CFF6AB0099B9CA /* Collection */,
+				BB0D9CF126CFF6AB0099B9CA /* Cell */,
 				BB0D9CF626D024E00099B9CA /* HomeViewController.swift */,
-				BB0D9CF726D024E00099B9CA /* HomeViewController.xib */,
 				BB0D9D4B26D25A3B0099B9CA /* Home.storyboard */,
+				BB0D9D7126D67D770099B9CA /* DetailViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -340,6 +350,7 @@
 		BB0D9CA826CDAF830099B9CA /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				BB0D9D5E26D4C8280099B9CA /* Base */,
 				BB0D9CAB26CDAF990099B9CA /* Secret */,
 				BB0D9CA926CDAF960099B9CA /* Constant.swift */,
 			);
@@ -388,7 +399,7 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		BB0D9CF126CFF6AB0099B9CA /* Collection */ = {
+		BB0D9CF126CFF6AB0099B9CA /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				BB0D9CF226CFF6E90099B9CA /* BannerCollectionViewCell.swift */,
@@ -397,7 +408,7 @@
 				BB0D9CFB26D04DD80099B9CA /* StoresCollectionViewCell.xib */,
 				BB0D9D5626D2E90F0099B9CA /* StoreCell.swift */,
 			);
-			path = Collection;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		BB0D9CFF26D102770099B9CA /* DataManager */ = {
@@ -440,6 +451,31 @@
 				BB0D9D5C26D3155D0099B9CA /* ProfileResponse.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		BB0D9D5E26D4C8280099B9CA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D5F26D4C8360099B9CA /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BB0D9D6726D4D9290099B9CA /* Plus */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D6526D4CECB0099B9CA /* PlusViewController.swift */,
+				BB0D9D6826D4D9EB0099B9CA /* Plus.storyboard */,
+			);
+			path = Plus;
+			sourceTree = "<group>";
+		};
+		BB0D9D6E26D4EDBC0099B9CA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D9D6F26D4EE000099B9CA /* EatDealTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		E13C8EE5BD88167B58B21588 /* Pods */ = {
@@ -563,10 +599,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0D9CEA26CE4A100099B9CA /* EnterNameViewController.xib in Resources */,
 				BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */,
 				BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */,
-				BB0D9CF926D024E00099B9CA /* HomeViewController.xib in Resources */,
+				BB0D9D6226D4CDC40099B9CA /* News.storyboard in Resources */,
 				BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */,
 				BB0D9D5226D25B460099B9CA /* Splash.storyboard in Resources */,
 				BB0D9CFD26D04DD80099B9CA /* StoresCollectionViewCell.xib in Resources */,
@@ -574,11 +609,10 @@
 				BB0D9D5426D266770099B9CA /* LaunchScreen.storyboard in Resources */,
 				BB0D9D4E26D25A7E0099B9CA /* Login.storyboard in Resources */,
 				BB0D9C7426CDAC3B0099B9CA /* Assets.xcassets in Resources */,
-				BB0D9CD026CDB16B0099B9CA /* SignUpViewController.xib in Resources */,
-				BB0D9CE226CE18D60099B9CA /* AuthPhoneNumController.xib in Resources */,
-				BB0D9CBC26CDB0BC0099B9CA /* NewsViewController.xib in Resources */,
+				BB0D9D6426D4CDDF0099B9CA /* MangoPick.storyboard in Resources */,
 				BB0D9D0826D194CF0099B9CA /* Profile.storyboard in Resources */,
 				BB0D9D4C26D25A3B0099B9CA /* Home.storyboard in Resources */,
+				BB0D9D6926D4D9EB0099B9CA /* Plus.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,8 +744,11 @@
 				BB0D9D0C26D247D90099B9CA /* ProfileTableViewController.swift in Sources */,
 				BB0D9CE126CE18D60099B9CA /* AuthPhoneNumController.swift in Sources */,
 				BB0D9CB626CDB0A40099B9CA /* MangoPickViewController.swift in Sources */,
+				BB0D9D6626D4CECB0099B9CA /* PlusViewController.swift in Sources */,
 				BB0D9CDC26CDB8000099B9CA /* SignUpResponse.swift in Sources */,
+				BB0D9D6026D4C8360099B9CA /* BaseViewController.swift in Sources */,
 				BB0D9CF026CED88D0099B9CA /* TabBarViewController.swift in Sources */,
+				BB0D9D7026D4EE000099B9CA /* EatDealTableViewCell.swift in Sources */,
 				BB0D9CDA26CDB7F30099B9CA /* SignUpInput.swift in Sources */,
 				BB0D9CD826CDB55B0099B9CA /* JwtToken.swift in Sources */,
 				BB0D9CF826D024E00099B9CA /* HomeViewController.swift in Sources */,
@@ -723,11 +760,14 @@
 				BB0D9D5726D2E90F0099B9CA /* StoreCell.swift in Sources */,
 				BB0D9CAA26CDAF960099B9CA /* Constant.swift in Sources */,
 				BB0D9CDE26CDB8C00099B9CA /* SignUpDataManager.swift in Sources */,
+				BB0D9D6B26D4E16B0099B9CA /* TabBar2ViewController.swift in Sources */,
+				BB0D9D6D26D4EA5B0099B9CA /* EatDealViewController.swift in Sources */,
 				BB0D9D0226D102A20099B9CA /* HomeResponse.swift in Sources */,
 				BB0D9CFC26D04DD80099B9CA /* StoresCollectionViewCell.swift in Sources */,
 				BB0D9CF426CFF6E90099B9CA /* BannerCollectionViewCell.swift in Sources */,
 				BB0D9CAE26CDB00E0099B9CA /* SplashViewController.swift in Sources */,
 				BB0D9D5B26D2FFA60099B9CA /* ProfileDataManager.swift in Sources */,
+				BB0D9D7226D67D770099B9CA /* DetailViewController.swift in Sources */,
 				BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */,
 				BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */,
 				BB0D9D5D26D3155D0099B9CA /* ProfileResponse.swift in Sources */,

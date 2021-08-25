@@ -25,6 +25,12 @@ class ProfileTableViewController: UITableViewController {
     @IBOutlet weak var wishNum: UILabel!
     
     
+//    var sentEmail = ""
+//    var sentPwd = ""
+//    var sentPhoneNum = ""
+    var sentName = ""
+    
+    
     var userInfo: UserInfo?
     var profileDataManager = ProfileDataManager()
     
@@ -32,6 +38,12 @@ class ProfileTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
             
+        //회원가입-이름 입력 화면에서 입력한 이름 받아와서 내 정보 화면에 이름항목에 넣기
+        let secondStoryboard = UIStoryboard.init(name: "Login", bundle: nil)
+        guard let second = secondStoryboard.instantiateViewController(identifier: "EnterNameViewController") as? EnterNameViewController else {return}
+        //self.name?.text = second.nameInput.text
+        
+        
         //시도
         profileDataManager.users(viewController: self)
         profileDataManager.didFinishFetch = {

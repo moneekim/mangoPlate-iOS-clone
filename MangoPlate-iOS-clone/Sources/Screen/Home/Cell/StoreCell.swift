@@ -31,6 +31,8 @@ class StoreCell : UICollectionViewCell{
         self.storeView.text = "\(info.views)"
         self.storeReview.text = "\(info.reviews)"
         
+        print(storeName.text)
+        
         guard let imagePath = info.profImg else{
             return
         }
@@ -39,6 +41,8 @@ class StoreCell : UICollectionViewCell{
             return
         }
         self.storeImage.kf.setImage(with: url1)
+        //storeImage.frame.height = 156
+        //storeImage.bounds.height = 156
 
     }
     

@@ -23,16 +23,43 @@ class LoginViewController: UIViewController {
     }*/
     
 
+    @IBAction func editId(_ sender: Any) {
+        loginButton.backgroundColor = .orange
+    }
+    
+    
+    @IBAction func editPwd(_ sender: Any) {
+        loginButton.backgroundColor = .orange
+    }
+
+    
     @IBAction func didTapLoginButton(_ sender: Any) {
+        
         // 옵셔널 바인딩 & 예외 처리 : Textfield가 빈문자열이 아니고, nil이 아닐 때
             guard let email = emailInput.text, !email.isEmpty else { return }
             guard let password = pwdInput.text, !password.isEmpty else { return }
                 
-        
         //api 연결
         let input = LoginInput(email: email, password: password)
         LoginDataManager().userslogIn(input, viewController: self)
         //api 연결 끝
+        
+        //로그인 버튼 클릭하면 홈화면으로
+        //LoginDataManager().userslogIn
+//        let secondStoryboard = UIStoryboard.init(name: "Home", bundle: nil)
+//        guard let second = secondStoryboard.instantiateViewController(identifier: "HomeViewController") as? HomeViewController else {return}
+//        second.modalPresentationStyle = .overFullScreen
+//        present(second, animated: true, completion: nil)
+//
+        //탭바 컨트롤러로 시작
+        let secondStoryboard = UIStoryboard.init(name: "TabBar", bundle: nil)
+        guard let second = secondStoryboard.instantiateViewController(identifier: "TabBarId") as? TabBar2ViewController else {return}
+        second.modalPresentationStyle = .overFullScreen
+        present(second, animated: true, completion: nil)
+    
+        
+        
+        
         
     }
     
@@ -40,6 +67,12 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        if(editId()){
+//            if(editPwd(_ sender: Any)){
+//                loginButton.backgroundColor = .orange
+//            }
+//        }
         
         //텍스트필드 언더라인 설정
         emailInput.borderStyle = .none
@@ -59,7 +92,7 @@ class LoginViewController: UIViewController {
         loginButton.layer.cornerRadius = 22
         
         //탭바 이미지 넣기
-        let back = UIImage(named: "뒤로가기")
+        let back = UIImage(named: "backBtn")
         let leftButtonItem = UIBarButtonItem(image: back, style: .plain, target: self, action: nil)
         //navigationItem.leftBarButtonItem = leftButtonItem
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: UIImageView(image: back))
