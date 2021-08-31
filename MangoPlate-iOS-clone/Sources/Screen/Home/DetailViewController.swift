@@ -11,6 +11,11 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var pictureCollectionView: UICollectionView!
     
+    @IBAction func closeButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+
     var currentPage : Int = 0
     let pictureList : [String] = ["상세_사진예1", "상세_사진예2", "상세_사진예3", "상세_사진예4"]
     

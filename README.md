@@ -46,9 +46,9 @@
 + 맛집찾기 api 연결성공, api 연결 시 이미지 로드 위해 Kingfisher 설치
 + 내 정보 뷰 api 연결
 
-### 21.08.24
+### 21.08.24-08.25
 + 플러스 버튼 화면
 + 상세화면 뷰, 망고픽 뷰 미완료
 
-### 21.08.25
-
+### 21.08.26
++ KakaoSDKCommon, KakaoSDKAuth, KakaoSDKUser 설치

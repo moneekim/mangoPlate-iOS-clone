@@ -13,15 +13,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var emailInput: UITextField!
     @IBOutlet weak var pwdInput: UITextField!
     @IBOutlet weak var loginButton: UIButton!
-    
-    //var userModel = UserModel() // 인스턴스 생성
-    /*
-    @IBAction func signInButton(_ sender: Any) {
-        let nextVC = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
-                nextVC.modalPresentationStyle = .overFullScreen
-                self.present(nextVC, animated: true, completion: nil)
-    }*/
-    
+
 
     @IBAction func editId(_ sender: Any) {
         loginButton.backgroundColor = .orange
@@ -53,14 +45,11 @@ class LoginViewController: UIViewController {
 //
         //탭바 컨트롤러로 시작
         let secondStoryboard = UIStoryboard.init(name: "TabBar", bundle: nil)
-        guard let second = secondStoryboard.instantiateViewController(identifier: "TabBarId") as? TabBar2ViewController else {return}
+        guard let second = secondStoryboard.instantiateViewController(identifier: "TabBarViewController") as? TabBarViewController else {return}
         second.modalPresentationStyle = .overFullScreen
         present(second, animated: true, completion: nil)
     
-        
-        
-        
-        
+    
     }
     
     

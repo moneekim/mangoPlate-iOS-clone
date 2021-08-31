@@ -208,7 +208,9 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
     
     //추가
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let vc = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController else{
+        //DetailNavigationViewController
+        //DetailViewController
+        guard let vc = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "DetailNavigationViewController") as? DetailNavigationViewController else{
             return
         }
         vc.modalPresentationStyle = .overFullScreen

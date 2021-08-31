@@ -26,17 +26,19 @@ class EatDealViewController: UITabBarController, UITableViewDelegate, UITableVie
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // 내가 정의한 Cell 만들기
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "EatDealCell", for: indexPath) as? EatDealTableViewCell else {
+            return UITableViewCell()
+        }
+        return cell
+        /*
         let cell: EatDealTableViewCell = tableView.dequeueReusableCell(withIdentifier: "EatDealCell", for: indexPath) as! EatDealTableViewCell
         // Cell Label의 내용 지정
         cell.price.text = data[indexPath.row]
                 
         // 생성한 Cell 리턴
         return cell
-        
-        /*guard let cell = tableView.dequeueReusableCell(withIdentifier: "EatDealCell", for: indexPath) as? EatDealTableViewCell else {
-            return UITableViewCell()
-        }
-        return cell*/
+        */
     }
 
 }

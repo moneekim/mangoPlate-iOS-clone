@@ -21,7 +21,6 @@
 		BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */; };
 		BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */; };
 		BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */; };
-		BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */; };
 		BB0D9CCF26CDB16B0099B9CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */; };
 		BB0D9CD226CDB5180099B9CA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */; };
 		BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9CD326CDB5310099B9CA /* LoginInput.swift */; };
@@ -62,6 +61,14 @@
 		BB0D9D7226D67D770099B9CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9D7126D67D770099B9CA /* DetailViewController.swift */; };
 		BB0D9DB626D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9DB426D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift */; };
 		BB0D9DB726D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0D9DB526D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib */; };
+		BB0D9DBB26D79EB00099B9CA /* KakaoLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9DBA26D79EB00099B9CA /* KakaoLoginResponse.swift */; };
+		BB0D9DBF26D79ECA0099B9CA /* KakaoLoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9DBE26D79ECA0099B9CA /* KakaoLoginDataManager.swift */; };
+		BB0D9DC226D8287D0099B9CA /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9DC126D8287D0099B9CA /* ReviewViewController.swift */; };
+		BB0D9DC426D829360099B9CA /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9DC326D829360099B9CA /* ReviewTableViewCell.swift */; };
+		BB0D9DC626D836E30099B9CA /* DetailNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9DC526D836E30099B9CA /* DetailNavigationViewController.swift */; };
+		BB0D9E0826D883E10099B9CA /* NewsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9E0726D883E10099B9CA /* NewsNavigationController.swift */; };
+		BB0D9E0A26D884380099B9CA /* TheNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9E0926D884380099B9CA /* TheNewsCell.swift */; };
+		BB0D9E0C26D886800099B9CA /* allReviewsImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D9E0B26D886800099B9CA /* allReviewsImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,7 +113,6 @@
 		BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestViewController.swift; sourceTree = "<group>"; };
 		BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		BB0D9CCD26CDB16B0099B9CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		BB0D9CD326CDB5310099B9CA /* LoginInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInput.swift; sourceTree = "<group>"; };
@@ -148,6 +154,14 @@
 		BB0D9D7126D67D770099B9CA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BB0D9DB426D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPictureCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB0D9DB526D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		BB0D9DBA26D79EB00099B9CA /* KakaoLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginResponse.swift; sourceTree = "<group>"; };
+		BB0D9DBE26D79ECA0099B9CA /* KakaoLoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginDataManager.swift; sourceTree = "<group>"; };
+		BB0D9DC126D8287D0099B9CA /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		BB0D9DC326D829360099B9CA /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		BB0D9DC526D836E30099B9CA /* DetailNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigationViewController.swift; sourceTree = "<group>"; };
+		BB0D9E0726D883E10099B9CA /* NewsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNavigationController.swift; sourceTree = "<group>"; };
+		BB0D9E0926D884380099B9CA /* TheNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNewsCell.swift; sourceTree = "<group>"; };
+		BB0D9E0B26D886800099B9CA /* allReviewsImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allReviewsImageCell.swift; sourceTree = "<group>"; };
 		E5F8F35716B7A8FA926E589D /* Pods-MangoPlate-iOS-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BAC85DEC46C89A6E5B7319 /* Pods-MangoPlate-iOS-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-MangoPlate-iOS-cloneTests/Pods-MangoPlate-iOS-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -294,7 +308,6 @@
 				BB0D9CC126CDB0D00099B9CA /* DataManager */,
 				BB0D9CC526CDB13B0099B9CA /* LoginRequestViewController.swift */,
 				BB0D9CC926CDB1480099B9CA /* LoginViewController.swift */,
-				BB0D9CCA26CDB1480099B9CA /* LoginViewController.xib */,
 				BB0D9D4D26D25A7E0099B9CA /* Login.storyboard */,
 			);
 			path = Login;
@@ -317,6 +330,9 @@
 			children = (
 				BB0D9CB926CDB0BC0099B9CA /* NewsViewController.swift */,
 				BB0D9D6126D4CDC40099B9CA /* News.storyboard */,
+				BB0D9E0726D883E10099B9CA /* NewsNavigationController.swift */,
+				BB0D9E0926D884380099B9CA /* TheNewsCell.swift */,
+				BB0D9E0B26D886800099B9CA /* allReviewsImageCell.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -341,6 +357,8 @@
 				BB0D9CF626D024E00099B9CA /* HomeViewController.swift */,
 				BB0D9D7126D67D770099B9CA /* DetailViewController.swift */,
 				BB0D9D4B26D25A3B0099B9CA /* Home.storyboard */,
+				BB0D9DC126D8287D0099B9CA /* ReviewViewController.swift */,
+				BB0D9DC526D836E30099B9CA /* DetailNavigationViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -367,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				BB0D9CD526CDB5460099B9CA /* LoginDataManager.swift */,
+				BB0D9DBE26D79ECA0099B9CA /* KakaoLoginDataManager.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -376,6 +395,7 @@
 			children = (
 				BB0D9CD326CDB5310099B9CA /* LoginInput.swift */,
 				BB0D9CD126CDB5180099B9CA /* LoginResponse.swift */,
+				BB0D9DBA26D79EB00099B9CA /* KakaoLoginResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -407,6 +427,7 @@
 				BB0D9D5626D2E90F0099B9CA /* StoreCell.swift */,
 				BB0D9DB526D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib */,
 				BB0D9DB426D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift */,
+				BB0D9DC326D829360099B9CA /* ReviewTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -612,7 +633,6 @@
 			files = (
 				BB0D9DB726D6E43E0099B9CA /* DetailPictureCollectionViewCell.xib in Resources */,
 				BB0D9CF526CFF6E90099B9CA /* BannerCollectionViewCell.xib in Resources */,
-				BB0D9CCC26CDB1480099B9CA /* LoginViewController.xib in Resources */,
 				BB0D9D6226D4CDC40099B9CA /* News.storyboard in Resources */,
 				BB0D9CEE26CED8780099B9CA /* TabBar.storyboard in Resources */,
 				BB0D9D5226D25B460099B9CA /* Splash.storyboard in Resources */,
@@ -753,19 +773,24 @@
 			files = (
 				BB0D9CCF26CDB16B0099B9CA /* SignUpViewController.swift in Sources */,
 				BB0D9D0C26D247D90099B9CA /* ProfileTableViewController.swift in Sources */,
+				BB0D9DC226D8287D0099B9CA /* ReviewViewController.swift in Sources */,
 				BB0D9CE126CE18D60099B9CA /* AuthPhoneNumController.swift in Sources */,
 				BB0D9CB626CDB0A40099B9CA /* MangoPickViewController.swift in Sources */,
 				BB0D9D6626D4CECB0099B9CA /* PlusViewController.swift in Sources */,
+				BB0D9E0826D883E10099B9CA /* NewsNavigationController.swift in Sources */,
 				BB0D9CDC26CDB8000099B9CA /* SignUpResponse.swift in Sources */,
 				BB0D9D6026D4C8360099B9CA /* BaseViewController.swift in Sources */,
 				BB0D9CF026CED88D0099B9CA /* TabBarViewController.swift in Sources */,
 				BB0D9D7026D4EE000099B9CA /* EatDealTableViewCell.swift in Sources */,
 				BB0D9CDA26CDB7F30099B9CA /* SignUpInput.swift in Sources */,
+				BB0D9DBB26D79EB00099B9CA /* KakaoLoginResponse.swift in Sources */,
+				BB0D9E0C26D886800099B9CA /* allReviewsImageCell.swift in Sources */,
 				BB0D9CD826CDB55B0099B9CA /* JwtToken.swift in Sources */,
 				BB0D9CF826D024E00099B9CA /* HomeViewController.swift in Sources */,
 				BB0D9CD226CDB5180099B9CA /* LoginResponse.swift in Sources */,
 				BB0D9D0E26D248650099B9CA /* ProfileViewController.swift in Sources */,
 				BB0D9C6B26CDAC3A0099B9CA /* AppDelegate.swift in Sources */,
+				BB0D9DC426D829360099B9CA /* ReviewTableViewCell.swift in Sources */,
 				BB0D9D0626D102B40099B9CA /* HomeDataManager.swift in Sources */,
 				BB0D9C6D26CDAC3A0099B9CA /* SceneDelegate.swift in Sources */,
 				BB0D9D5726D2E90F0099B9CA /* StoreCell.swift in Sources */,
@@ -780,13 +805,16 @@
 				BB0D9D5B26D2FFA60099B9CA /* ProfileDataManager.swift in Sources */,
 				BB0D9D7226D67D770099B9CA /* DetailViewController.swift in Sources */,
 				BB0D9CBB26CDB0BC0099B9CA /* NewsViewController.swift in Sources */,
+				BB0D9DC626D836E30099B9CA /* DetailNavigationViewController.swift in Sources */,
 				BB0D9CCB26CDB1480099B9CA /* LoginViewController.swift in Sources */,
 				BB0D9D5D26D3155D0099B9CA /* ProfileResponse.swift in Sources */,
 				BB0D9CD426CDB5310099B9CA /* LoginInput.swift in Sources */,
 				BB0D9CC726CDB13B0099B9CA /* LoginRequestViewController.swift in Sources */,
 				BB0D9CE926CE4A100099B9CA /* EnterNameViewController.swift in Sources */,
 				BB0D9DB626D6E43E0099B9CA /* DetailPictureCollectionViewCell.swift in Sources */,
+				BB0D9E0A26D884380099B9CA /* TheNewsCell.swift in Sources */,
 				BB0D9CD626CDB5460099B9CA /* LoginDataManager.swift in Sources */,
+				BB0D9DBF26D79ECA0099B9CA /* KakaoLoginDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,6 +973,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R99N37ST94;
 				INFOPLIST_FILE = "MangoPlate-iOS-clone/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -965,6 +994,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R99N37ST94;
 				INFOPLIST_FILE = "MangoPlate-iOS-clone/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (

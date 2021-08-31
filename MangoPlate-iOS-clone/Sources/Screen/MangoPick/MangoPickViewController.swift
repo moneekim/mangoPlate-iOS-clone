@@ -18,19 +18,6 @@ class MangoPickViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.changeViewByTabBar()
-        
-        /*
-        guard let EatDealVC = self.storyboard?.instantiateViewController(identifier: "EatDealViewController") as? EatDealViewController else {
-            return
-        }
-        for view in contentView.subviews{
-            view.removeFromSuperview()
-        }
-        EatDealVC.willMove(toParent: self)
-        contentView.frame = EatDealVC.view.bounds
-        contentView.addSubview(EatDealVC.view)
-        self.addChild(EatDealVC)
-        EatDealVC.didMove(toParent: self)*/
     }
     
     
@@ -92,9 +79,9 @@ class MangoPickViewController: UIViewController {
         guard let EATDealVC = self.storyboard?.instantiateViewController(identifier: "EatDealViewController") as? EatDealViewController else {
             return
         }
-        for view in contentView.subviews{
-            view.removeFromSuperview()
-        }
+//        for view in contentView.subviews{
+//            view.removeFromSuperview()
+//        }
         EATDealVC.willMove(toParent: self)
         contentView.frame = EATDealVC.view.bounds
         contentView.addSubview(EATDealVC.view)

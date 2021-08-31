@@ -19,9 +19,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="PWZ-Wt-Yvw" kind="relationship" relationship="rootViewController" id="uRT-Di-3fM"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHt-mA-Uya" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -30,13 +27,13 @@
         <!--Plus View Controller-->
         <scene sceneID="Mnj-JE-oLn">
             <objects>
-                <viewController storyboardIdentifier="PlusViewController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PWZ-Wt-Yvw" customClass="PlusViewController" customModule="MangoPlate_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PlusViewController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PWZ-Wt-Yvw" customClass="PlusViewController" customModule="MangoPlate_iOS_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nkg-89-lOo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="cYL-Lf-F7V">
-                                <rect key="frame" x="59" y="412" width="236" height="277"/>
+                                <rect key="frame" x="59" y="461" width="236" height="277"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="bdx-XG-5mt">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="277"/>
