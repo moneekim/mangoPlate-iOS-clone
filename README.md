@@ -1,6 +1,4 @@
-# mangoPlate_test_iOS_Monee
-
-## < 개발일지>
+# 개발 일지
 
 ### 21.08.14
 + xcode와 git repository 연동
